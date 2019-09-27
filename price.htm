@@ -1,0 +1,747 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>麒麟二维码</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit"><meta name="description" content="麒麟二维码各版本价格: 基础版780元每年,高级版1280元每年,旗舰版2680元每年和解决方案版16800元每年,更大使用量,以及去除麒麟标识及跳转中间页,支持音视频等功能。" />
+<meta name="keywords" content="麒麟二维码价格,麒麟二维码付费,二维码价格,二维码付费,麒麟二维码基础版,麒麟二维码高级版,麒麟二维码旗舰版,麒麟二维码解决方案版,麒麟二维码,企业名片,二维码生成器" />
+<link rel="stylesheet" href="qlqrcode_files/static/css/page-index-screen_51b1169.css">
+<link rel="icon" href="qlqrcode_files/images/favicon.ico" mce_href="/static/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="qlqrcode_files/images/favicon.ico" mce_href="/static/images/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="http://cli.im/" />
+<link rel="stylesheet" href="qlqrcode_files/cli/flatkit/assets/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="qlqrcode_files/cli/flatkit/assets/styles/app.min.css?v=20190711">
+<link rel="stylesheet" href="qlqrcode_files/cli/flatkit/assets/styles/cli_global.css?v=20190528">
+<link rel="stylesheet" href="qlqrcode_files/cli/flatkit/assets/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="qlqrcode_files/cli/css/clicon.css?v=20180820">
+<script src="qlqrcode_files/cli/js/service_text.js?v=20190805"></script>
+<script src="qlqrcode_files/cli/js/consult.js?v=20181010"></script>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="//static.clewm.net/cli/flatkit/assets/bootstrap/dist/css/bootstrapieV2.css">
+<script src="//static.clewm.net/cli/js/lib/plug/respond.min.js"></script><script src="//static.clewm.net/cli/js/lib/plug/html5shiv.min.js"></script>
+<![endif]-->
+<script src="qlqrcode_files/cli/js/lib/jquery191.js"></script>
+<script src="qlqrcode_files/cli/flatkit/libs/jquery/bootstrap/dist/js/bootstrap_v3.0.js"></script>
+<script src="qlqrcode_files/static/js/lib/sea_3c3cab9.js"></script>
+<script>
+	var CLI_DOMAIN='cli.im',
+	USER_DOMAIN='user.cli.im',
+	BIZ_DOMAIN='biz.cli.im',
+	QRAPI_DOMAIN='qrapi.cli.im',
+	STATIC_SERVICE='static.clewm.net/cli';
+</script>
+<script src="qlqrcode_files/static/js/common_d5afedb.js"></script>
+<script type="text/javascript">
+	var account='';
+	var tokenId = '';
+</script>
+<script charset="utf-8" src="qlqrcode_files/cli/js/getCapacityTips.js?v=20190721"></script>
+<script>
+	var _is_new = "";
+	var _capacity_info = null;
+</script>
+<script src="https://https-proxy.cli.im/ip-get&ip=123.168.122.34" type="text/ecmascript"></script>
+<script src="qlqrcode_files/static/js/sea-config_bc48384.js"></script>
+<script src="qlqrcode_files/MD5.js"></script>
+</head>
+<body>
+
+<div id="login_bg_div" style="background-color:rgba(0, 0, 0, 0.3);position:fixed;width:100%;height:100%;display:none;z-index:6;">
+	<div style="width: 642px;position: relative;height: 430px;margin: 0 auto;margin-top:200px;background: #eff2f3;text-align: center;border: 1px solid #eee;border-radius: 6px;box-sizing: border-box;overflow: hidden;">
+		<div style="right:10px;top:10px;color:#bbb;position: absolute;cursor: pointer;" onclick="closeLoginBgDiv();">X</div>
+		<div style="width:220px;height:280px;margin-top:50px;margin-left:50px;">
+			<h2 style="color: #4caf50;font-size:20px;height:30px;line-height:30px;">登录</h2>
+			<div style="width:220px;height:200px;margin-top:20px;">
+				<input type="text" id="userName" style="width: 226px;height: 46px;line-height: 46px;border: 0;padding: 0 15px;font-size: 12px;display: inline-block;vertical-align: middle;box-sizing: border-box;border-radius: 4px;border: 1px solid rgba(120,130,140,0.25);background-color:rgb(255,248,197);" onfocus="focusUserName();" onblur="checkUserName();"/>
+				<input type="password" id="password" style="width: 226px;height: 46px;line-height: 46px;border: 0;padding: 0 15px;font-size: 12px;display: inline-block;vertical-align: middle;box-sizing: border-box;border-radius: 4px;border: 1px solid rgba(120,130,140,0.25);background-color:rgb(255,248,197);" onblur="checkPassword();"/>
+				<div style="width: 226px;height: 40px;line-height: 40px;font-size: 16px;color:#fff;margin-top:20px;border-radius: 4px;background-color:rgb(76, 175, 80);cursor: pointer;" onclick="checkInputData();">登 录</div>
+			</div>
+		</div>
+		<div style="width: 1px;height: 246px;top: 72px;left: 320px;background-color: rgba(120,130,140,.13);position: absolute;"></div>
+		<div style="width:220px;height:280px;margin-top:-280px;margin-left:365px;border: 1px solid rgba(120,130,140,0.25);padding: 16px 0 24px;box-sizing: border-box;border-radius: 4px;background: #fff;">
+			<h2 style="color: #4caf50;font-size:20px;height:30px;line-height:30px;">微信账号登录</h2>
+			<img style="width:170px;height:170px;" src="http://www.bainuojiaoche.com:8080/GoodsPublic/resource/images/qrcode.png"/>
+			<p style="color: #666;font-size: 14px;margin-top: 10px;">微信扫码快速注册登录</p>
+		</div>
+		<div style="width:100%;height:50px;line-height:50px;color: #9b9b9b;text-align:center;background-color:#fff;bottom: 0;position: absolute;">
+			没有账号？
+			<a style="color: #357bb3;" onclick="goRegist();">手机号注册</a>
+		</div>
+		<input type="hidden" id="price_hid"/>
+	</div>
+</div>
+
+<input id="topicId" type="hidden" value="">
+<input id="isAdmin" type="hidden" value="">
+<script type="text/javascript">
+        seajs.use('common');
+</script>
+<script>
+  (function () {
+    var autoVersion = [1564998463891][0] || 0;
+    document.documentElement.setAttribute('auto_version', autoVersion);
+  })();
+
+  function focusUserName(){
+	var userName=$("#userName").val();
+	if(userName=="请填写用户名"){
+		$("#userName").val("");
+		$("#userName").css("color","#000");
+	}
+  }
+
+  function checkUserName(){
+	var userName=$("#userName").val();
+	if(userName==null||userName==""||userName=="请填写用户名"){
+		$("#userName").css("color","#f00");
+		$("#userName").val("请填写用户名");
+		return false;
+	}
+	else
+		return true;
+  }
+
+  function checkPassword(){
+	var password=$("#password").val();
+	if(password==null||password==""||password=="请填写密码"){
+		alert("请填写密码");
+		return false;
+	}
+	else
+		return true;
+  }
+
+  function goRegist(){
+	var price=$("#price_hid").val();
+	location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/regist?action=buy&price="+price;
+  }
+
+  function checkInputData(){
+	if(checkUserName()){
+		if(checkPassword()){
+			login();
+		}
+	}
+  }
+
+  function login(){
+	  var userName=$("#userName").val();
+	  var password=MD5($("#password").val()).toUpperCase();
+	  $.ajax({
+		 url:"http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/loginQL",
+		 dataType:'jsonp',
+		 data:"userName="+userName+"&password="+password,
+		 processData: false, 
+		 jsonp:'callback',
+		 jsonpCallback:"jsonpCallback",
+		 type:'get',
+		 success:function(data){
+		   var json=JSON.parse(data);
+		   //console.log(json);
+		   if(json.status==0){
+			  var price=$("#price_hid").val();
+			  location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/saveQLUser?price="+price+"&userName="+userName+"&password="+password;
+		   }
+		   else{
+			  alert(json.msg);
+		   }
+		 },
+		 error:function(XMLHttpRequest, textStatus, errorThrown) {
+		   alert(XMLHttpRequest);
+		   alert(XMLHttpRequest.status);
+		   alert(XMLHttpRequest.readyState);
+		   alert(textStatus);
+		 }
+	 });
+  }
+
+</script>
+<script src="qlqrcode_files/cli/js/browserTip.js?v=1564998463891"></script>
+<link rel="stylesheet" href="qlqrcode_files/cli/css/cli_head_top.css?v=20190606">
+<script type="text/javascript" src="qlqrcode_files/cli/js/capacity-nav-info-common.js?v=1564998463891"></script>
+<script>
+	var account='';
+	var tokenId = '';
+</script>
+<script src="qlqrcode_files/cli/js/cli_head_top.js?v=20190705"></script>
+<script id="support-ab-test" src="qlqrcode_files/cli/js/lib/abtp/index.js"></script>
+<script src="qlqrcode_files/cli/js/slide_top_index_v3.js?v=201908051"></script>
+<style>
+  .top-menu-solution .linkCotent {
+      position: absolute;
+      top: 54px;
+      left: -14px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+      z-index: 1000;
+      display: none;
+  }
+  .top-menu-solution:hover .linkCotent {
+      display: block;
+  }
+  .top-menu-solution .buildingLinks,.top-menu-solution .equipmentLinks {
+      height: 270px;
+  }
+  .top-menu-solution .compositeLinks {
+      height: 270px;
+  }
+</style>
+<div class="cli_head scene_mobile">
+	<div class="cli_head_inner cli_head_container">
+		<a href="qlqrcode.htm">
+			<img src="qlqrcode_files/images/cli_logo.png" style="width:300px;height:54px; margin-top:5px;"/>
+		</a>
+		<div class="logpart pull-right">
+			<div id="myqr_out" style="display: none">
+				<div class="cli-normal-main pointer">
+					<img src="" class="account_icon fl" />
+					<em class="user_account" style="position: relative;top: 1px;font-style: normal;float: left;margin-left: 6px;"></em>
+					<em class="cli_head_arrow">
+						<i class="cli_head_arrow_up"></i>
+					</em>
+					<div class="header-capacity" id="header-capacity"></div>
+				</div>
+				<a target="_blank" href="javascript:;" class="activeUpdate none" data-toggle="tooltip" data-placement="bottom" title="请升级你的账号">升级</a>
+				<script>__createA();</script>
+			</div>
+			<div id="login_join"  aaa="0" style="">
+				<a class="first" data="join" data-type="login" onClick="location.href='http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/login';">登录 / 注册</a>
+				<script>__createA();</script>
+			</div>
+		</div>
+		<div class="nav-divider pull-right"></div>
+		<ul class="menu pull-right">
+			<li class="top-menu-item">
+				<a href="qlqrcode.htm" class="menu-hd" id="top-nav-products" onclick="StatisticsData(120, 21)">产品介绍</a>
+			</li>
+			<li class="top-menu-item top-menu-solution" has-dropdown="true" >
+				<a href="solutionCommodity.htm" class="menu-hd" id="top-nav-solution" onclick="StatisticsData(120, 22)">应用案例</a>
+			</li>
+			<li>
+				<a href="price.htm" class="menu-hd" id="top-nav-price" target="_blank" onclick="StatisticsData(120, 122)">价格</a>
+			</li>
+			<!--
+			<li>
+				<a href="//cli.im/help/48216" class="menu-hd" id="top-nav-help" target="_blank" onclick="StatisticsData(120, 24)">帮助文档</a>
+			</li>
+			-->
+		</ul>
+	</div>
+</div>
+<div class="clearfix"></div>
+<input type="hidden" id="STATICURL" value="//static.clewm.net/cli"><script>
+  $('.top-menu-solution').mouseenter(function() {
+    StatisticsData(115, 1);
+  });
+  //数据统计
+  function StatisticsData(fir,sec){
+    $.ajax({
+      async: true,
+      type: "get",
+      url: '/Api/ClickLog/click',
+      data: {
+          'fir': fir,
+          'sec': sec
+      },
+      dataType: 'jsonp',
+      jsonp: 'callback',
+      success: function(ret) {
+      }
+    });
+  }
+
+  function goFeeBuy(price){
+	  $.ajax({
+	     url:"http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/checkIfLogin",
+		 dataType:'jsonp',
+		 processData: false, 
+		 jsonp:'callback',
+		 jsonpCallback:"jsonpCallback",
+		 type:'get',
+		 success:function(data){
+		   var json=JSON.parse(data);
+		   console.log(json);
+		   if(json.status==0){
+			  location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goFeeBuy?price="+price;
+		   }
+		   else{
+			  //location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/regist?price="+price;
+			  $("#login_bg_div").css("display","block");
+			  $("#login_bg_div #price_hid").val(price);
+		   }
+		 },
+		 error:function(XMLHttpRequest, textStatus, errorThrown) {
+		   alert(XMLHttpRequest);
+		   alert(XMLHttpRequest.status);
+		   alert(XMLHttpRequest.readyState);
+		   alert(textStatus);
+		 }
+	  });
+  }
+
+  function closeLoginBgDiv(){
+	 $("#login_bg_div").css("display","none");
+  }
+</script>
+<link rel="stylesheet" href="qlqrcode_files/static/css/page-price-btest_0e646c9.css">
+<div class="w-p100 white">
+	<div class="banner">
+		<div class="w-1000 p-y-lg">
+			<h2 class="m-b" style="font-size: 26px;">麒麟为你提供的不止是好用的产品，还有极具性价比的定价</h2>
+			<h4 class="_300">从内容展示到深度记录应用，满足不同规模不同需求，为企业创造价值</h4>
+		</div>
+	</div>
+	<div class="w-1000 white p-b-lg">
+		<!--row no-gutter_start-->
+		<div class="row no-gutter m-b-lg" style="margin-top: -244px">
+			<div class="version-plan clearfix">
+				<div class="version-col box-shadow-advance white">
+					  <div class="p-x">
+						  <h4 class="p-t-md p-b">
+							一个月
+						  </h4>
+						  <h5 class="p-b-md">个人或小团队应用</h5>
+						  <span class="f-12 text-grey">￥</span>
+						  <h2 class="inline recommend-module-price">
+							60
+						  </h2>
+					  </div>
+					  <div class="p-y-md text-intro-box">
+						  <div class="text-intro">
+							基础功能免费使用
+						  </div>
+						  <div class="text-intro">
+							<span class="price-popover-origin" data-container="body" data-placement="right" data-toggle="popover" data-content="<div class='common-popover-content'>新版活码在微信和支付宝中默认用小程序展示，对比H5，内容加载速度更快，扫码体验更流畅。</div>">
+								小程序访问加速
+								<i class="text-grey fa fa-question-circle always-show"></i>
+							</span>
+						  </div>
+					  </div>
+					  <div class="text-center">
+						<a buy-version target="_blank" onclick="goFeeBuy(60);" class="btn btn-outline b-orange text-orange btn-fw btn-buy">立即购买</a>
+					  </div>
+				</div>
+				<div class="version-col box-shadow-advance white ">		  
+					   <div class="p-x">
+						  <h4 class="p-t-md p-b">
+							三个月
+						  </h4>
+						  <h5 class="p-b-md">企业简单应用</h5>
+						  <span class="f-12 text-grey">￥</span>
+						  <h2 class="inline recommend-module-price">
+							150
+						  </h2>
+					  </div>
+					  <div class="p-y-md text-intro-box">
+						  <div class="text-intro">
+							去除麒麟底部标识
+						  </div>
+						  <div class="text-intro">
+							音视频播放不限人数
+						  </div>
+					  </div>
+					  <div class="text-center">
+	      				  <!--
+					     <a href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goFeeBuy?price=150" buy-version target="_blank" onclick="StatisticsData(17,102)" class="btn btn-outline b-orange text-orange btn-fw btn-buy">立即购买</a>
+						 -->
+						 <a buy-version target="_blank" onclick="goFeeBuy(150);" class="btn btn-outline b-orange text-orange btn-fw btn-buy">立即购买</a>
+					  </div>
+				</div>
+				<div class="version-col box-shadow-advance white recommend-module">
+					<div class="recommend-angle">
+						<span class="text-white text-xs">推荐</span>
+						<div class="triangle-up"></div>
+					</div>
+					<div class="p-x">
+						<h4 class="p-t-md p-b">
+							一年
+						</h4>
+						<h5 class="p-b-md">企业深度应用</h5>
+						<span class="f-12 text-grey">￥</span>
+						<h2 class="inline recommend-module-price">
+						  600
+						</h2>
+					</div>
+					<div class="p-y-md text-intro-box">
+						<div class="text-intro">
+							去除麒麟所有标识
+						</div>
+						<div class="text-intro">
+						  更大容量/音视频流量
+						</div>
+					</div>
+					<div class="text-center">
+						<a buy-version target="_blank" onclick="goFeeBuy(600);" class="btn btn-outline b-orange text-orange btn-fw btn-buy">立即购买</a>
+					</div>
+				</div>
+				<div class="version-col box-shadow-advance white ">
+					<div class="p-x">
+						<h4 class="p-t-md p-b">
+							永久
+						</h4>
+						<h5 class="p-b-md">
+							<span class="price-popover-origin" data-container="body" data-toggle="popover" data-placement="right" data-content="<div class='common-popover-content'><p class='m-b'>旗舰版及以上版本增加<strong>高级记录功能</strong>，支持企业对巡检、维保、签到等工作的专业应用。</p><p class='m-b'>指定记录人扫码添加记录，规范检查防作弊；记录汇总查看权限设置，信息共享更安全。</p><a href='//cli.im/help/49155' class='text-blue' target='_blank' onclick='StatisticsData(17,39)'>了解详情</a></div>">
+							  企业巡检记录专业应用
+							  <i class="text-grey text-xs fa fa-question-circle always-show"></i>
+							</span>
+						</h5>
+						<span class="f-12 text-grey">￥</span>
+						<h2 class="inline recommend-module-price" id="advancePrice">
+							2000
+						</h2>
+					</div>
+					  <div class="p-y-md text-intro-box">
+						  <div class="text-intro">
+							增加高级记录功能
+						  </div>
+						  <div class="text-intro">
+							容量/音视频流量10倍提升
+						  </div>
+					  </div>
+					  <div class="text-center">
+						  <a buy-version="version15" target="_blank" onclick="goFeeBuy(2000);" class="btn btn-outline b-orange text-orange btn-fw btn-buy">立即购买</a>
+					  </div>
+			  	</div>
+			  <div class="version-col box-shadow-advance white " style="position: relative;">
+				  <div class="p-x">
+					  <h4 class="p-t-md p-b">
+						连续包月
+					  </h4>
+					  <h5 class="p-b-md">
+						  <span class="price-popover-origin" data-container="body" data-toggle="popover" data-placement="left" data-content="<div class='common-popover-content'><p class='m-b'>在麒麟云服务器下提供企业「独立小程序」和「独立管理后台」，可快速应用落地。</p><p class='m-b'>对比传统独立部署方案成本降低10倍，且无需企业额外管理成本，麒麟负责云服务器安全维护、持续更新系统功能等。</p><a href='//cli.im/help/48862' class='text-blue' target='_blank' onclick='StatisticsData(17,40)'>了解详情</a></div>">
+							  麒麟云服务独立系统
+							  <i class="text-grey text-xs fa fa-question-circle always-show"></i>
+						  </span>
+					  </h5>
+					  <span class="f-12 text-grey">￥</span>
+					  <h2 class="inline recommend-module-price">
+						50
+					  </h2>
+					  <input class="industry" type="hidden" value="2"><input id="case" type="hidden" value="9">
+				  </div>
+				  <div class="p-y-md text-intro-box">
+					  <div class="text-intro">
+						企业独立小程序
+					  </div>
+					  <div class="text-intro">
+						企业独立管理后台
+					  </div>
+				  </div>
+				  <div class="text-center">
+					<a buy-version target="_blank" onclick="goFeeBuy(50);" class="btn btn-outline b-orange text-orange btn-fw btn-buy">立即购买</a>
+				  </div>
+			  </div>
+			</div>
+		</div>
+		<!--row no-gutter_end-->
+		  <!--row no-gutter_start-->
+		  <div class="row no-gutter">
+			  <div class="row no-gutter title-version-1" id="title-version">
+				  <div class="col-sm-2 text-md _600 title-version-fir col-version-1 pos-rlt">版本对比</div>
+				  <div class="col-sm-2 text-center">
+					  <span class="f-16">一个月</span>
+					  <p class="text-xs">￥<span class="f-16 _600 m-x-xs">60</span></p>
+					  <a href="//user.cli.im/center" buy-version target="_blank" cli-data-statistics="17,1" class="btn btn-xs btn-outline b-orange text-orange btn-buy">立即使用</a>
+				  </div>
+				  <div class="col-sm-2 text-center">
+					  <span class="f-16">三个月</span>
+					  <p class="text-xs">￥<span class="f-16 _600 m-x-xs">150</span></p>
+					<a href="//user.cli.im/buy?create_from=1&version=2" buy-version target="_blank" cli-data-statistics="17,2" class="btn btn-xs btn-outline b-orange text-orange btn-buy">立即购买</a>
+				  </div>
+				  <div class="col-sm-2 text-center">
+					  <span class="f-16">一年</span>
+					  <p class="text-xs">￥<span class="f-16 _600 m-x-xs text-orange">600</span></p>
+					  <a href="//user.cli.im/buy?create_from=1&version=3" buy-version target="_blank" cli-data-statistics="17,3" class="btn btn-xs btn-outline orange text-light">立即购买</a>
+				  </div>
+				  <div class="col-sm-2 text-center">
+					  <span class="f-16">永久</span>
+					  <p class="text-xs">￥<span class="f-16 _600 m-x-xs" id="advancePrice2">2000</span></p>
+					  <a href="//user.cli.im/buy?create_from=1&version=15" buy-version="version15" target="_blank" cli-data-statistics="17,4" class="btn btn-xs btn-outline b-orange text-orange btn-buy">立即购买</a>
+				  </div>
+				  <div class="col-sm-2 text-center">
+					  <span class="f-16">连续包月</span>
+					  <p class="text-xs">￥<span class="f-16 _600 m-x-xs">50</span></p>
+					  <a href="//user.cli.im/buy?create_from=1&version=44" buy-version target="_blank" cli-data-statistics="17,5" class="btn btn-xs btn-outline b-orange text-orange btn-buy">立即购买</a>
+				  </div>
+			  </div>
+			  <div class="col-version-banner col-version-banner-1 odd"><div class="col-version-1 _600" id="basis">
+				  版本容量/音视频流量
+			  </div>
+		  </div>
+		  <!--row no-gutter_end-->
+		  <!--content-version_start-->
+		  <div class="content-version row no-gutter odd">
+			   <div class="col-sm-2">
+				  <div class="col-version-1 col-version-content">
+					图片/文件容量
+				  </div>
+				  <div class="col-version-1 col-version-content">
+					音视频容量
+				  </div>
+				  <div class="col-version-1 col-version-content">
+					音视频播放人数
+				  </div>
+				  <div class="col-version-1 col-version-content">
+					音视频播放流量
+				  </div>
+			  </div>
+			  <div class="col-sm-2">
+				  <div class="col-version-content">50M</div>
+				  <div class="col-version-content">500M</div>
+				  <div class="col-version-content">限5人播放体验</div>
+				  <div class="col-version-content">12G</div>
+			  </div>
+			  <div class="col-sm-2">
+				  <div class="col-version-content">1G</div>
+				  <div class="col-version-content">不限</div>
+				  <div class="col-version-content">不限</div>
+				  <div class="col-version-content">240G</div>
+			  </div>
+			  <div class="col-sm-2">
+				  <div class="col-version-content">3G</div>
+				  <div class="col-version-content">不限</div>
+				  <div class="col-version-content">不限</div>
+				  <div class="col-version-content">600G</div>
+			  </div>
+			  <div class="col-sm-2">
+				  <div class="col-version-content">30G，可扩容</div>
+				  <div class="col-version-content">不限</div>
+				  <div class="col-version-content">不限</div>
+				  <div class="col-version-content">6000G，可扩容</div>
+			  </div>
+			  <div class="col-sm-2">
+				  <div class="col-version-content">1000G，可扩容</div>
+				  <div class="col-version-content">不限</div>
+				  <div class="col-version-content">不限</div>
+				  <div class="col-version-content">20000G，可扩容</div>
+			  </div>
+		  </div>
+		  <!--content-version_end-->
+	</div>
+</div>
+
+		 
+<script>
+  var currentCreateFrom = 1;
+</script>
+<script src="qlqrcode_files/static/js/page-price_9043e7d.js"></script>
+<script src="qlqrcode_files/cli/js/solution_free.js?v=20190522"></script>
+<script>
+    $('[use-quickly-machine]').click(function() {
+        var api_host = '',
+            STATIC_SERVICE = '',
+            now_host = window.location.host;
+            if (now_host.indexOf('cli.me') != -1) {
+                api_host = 'cli.me';
+                STATIC_SERVICE = 'static.cli.me/cli'; //测试--本地
+            } else if (now_host.indexOf('cliim.net') != -1) {
+                api_host = 'cliim.net';
+                STATIC_SERVICE = 'static-develop.clewm.net/cli'; //测试--net
+            } else if (now_host.indexOf('cliim.com') !== -1) {
+                api_host = 'cliim.com';
+                STATIC_SERVICE = 'static-test.clewm.net/cli'; //测试--com
+            } else {
+                api_host = 'cli.im';
+                STATIC_SERVICE = 'static.clewm.net/cli';
+            }
+        if (account == false) { //未登录
+            seajs.use('//'+STATIC_SERVICE+'/js/login_plugin.js?v=20190610', function(cli) {
+                // change_type 为 13
+                cli.login_plugin('join', 12); // 带提示的登录
+            });
+        } else { //已登陆
+            //1，判断有没有到期，显示相应的弹窗 2，如果是完善信息的话，请求数据的借口 3，完成
+            
+            $.ajax({
+                type: "get",
+                url: '//user.' + api_host + '/api/index/get_probation_info',
+                dataType: "jsonp",
+                async: false,
+                success: function(ret) {
+                    var is_test = ret.is_test;
+                    if (is_test == 0) {
+                        //判断是否完善过信息  is_full=1表示已完善过信息
+                        $.ajax({
+                            type: "get",
+                            url: '//user.' + api_host + '/api/index/get_biz_info',
+                            dataType: "jsonp",
+                            success: function(ret) {
+                                var is_full = ret.is_full;
+                                if (is_full == 1 && ret.industry.id == $('input.industry').val()) {
+                                    openSolution();
+                                } else {
+                                  var industryId = $('input.industry').val();
+                                  var caseId = $('input#case').val();
+                                  window.location.href = '//'+ api_host +'/solution/index/free_trial?industry='+industryId + '&case=' + caseId;
+                                  // 弹出完善信息的框
+                                  // buildInfo.add_build_box_common('logined');
+                                }
+                            }
+                        });
+                    } else if (is_test == 1 || is_test == 2) {
+                        window.location.href = '//biz.'+ api_host +'/product';
+                    } else if (is_test == 3) {
+                        ViewFreeDialogInfo('ExpiredFreeFront');
+                    }
+                }
+            });
+
+        }
+    });
+</script>
+<script type="text/javascript" src="qlqrcode_files/cli/js/qqserver_clicklog-jq1.9.1.js"></script>
+<link rel="stylesheet" href="qlqrcode_files/cli_footer_new_7148ff6.css">
+<div class="cli_foot">
+	<div class="footer-tool-box">
+		<ul class="W1000 global-not-select footer-tool-item-ul">
+			<li class="footer-tool-item icon-forever">
+				长期有效
+			</li><li class="footer-tool-item icon-safe">
+				数据安全
+			</li><li class="footer-tool-item icon-privacy">
+				隐私保护
+			</li><li class="footer-tool-item icon-available">
+				高可用性
+			</li>
+		</ul>
+	</div>
+	<div class="footer-category-box">
+		<div class="foot-box W1000 global-not-select">
+			<div class="footer-info-item">
+				<div class="title">电话：0532-55588351</div>
+			</div>
+			<div class="footer-info-item">
+				<div class="title">传真：0532-55588352</div>
+			</div>
+			<div class="footer-info-item" style="width:200px;">
+				<div class="title">邮箱：qdhualing@126.com</div>
+			</div>
+			<div class="footer-info-item">
+				<div class="title">商话1：15712773653</div>
+			</div>
+			<div class="footer-info-item">
+				<div class="title">商话2：15315019919</div>
+			</div>
+			<div class="footer-info-item" style="width:350px;">
+				<div class="title">地址：山东省黄岛区双珠路288号东方金石大厦8F </div>
+			</div>
+		</div>
+		<div class="copyright W1000">
+			<div class="copyright-inner">
+				<div>
+					<a href="http://www.qdhualing.com" target="_blank">青岛华凌科技有限公司</a>&nbsp;&nbsp;
+					<div class="copyright-box">
+						<span class="record-case" style="">鲁ICP备15031378号</span>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+<script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement('script');
+                    hm.src = '//hm.baidu.com/hm.js?cb508e5fef81367bfa47f4ec313bf68c';        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(hm, s);
+        var getCookie = function (name) {
+          var arr = document.cookie.match(new RegExp('(^| )' + name + '=([^;]*)(;|$)'));
+          if (arr == null) {
+            return '';
+          }
+          return unescape(arr[2]);
+        };
+        var cvid = getCookie('cvid');
+        if (!cvid) {
+          var domain = location.hostname.split('.').slice(-2).join('.');
+          hm = document.createElement('script');
+          hm.src = '//user.' + domain + '/api/visitor_analysis/get_cvid';
+          s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(hm, s);
+        }
+      })();
+              _hmt.push(['_setCustomVar', 1, 'price', 1, 1]);                  _hmt.push(['_setPag?eTag', '7035', 'odd']);      _hmt.push(['_setVisitTag', '2118', 143638965]);    </script></div><script>
+    $(function(){
+        $('.cli_foot .qq_show').hover(function(e) {
+            $('ul.qq_list').toggle();
+            e.stopPropagation();
+        });
+
+        $('[data-toggle="popover"]')
+            .popover({
+              trigger: 'manual',
+              animation: false,
+            })
+            .on('mouseenter', function () {
+                var _this = this;
+                $('.popover').remove();
+                $(this).popover('show');
+                $('.popover').find('.arrow').addClass('beforeNone');
+                $('.popover').on('mouseleave', function () {
+                    $(_this).popover('hide');
+                });
+            }).on('mouseleave', function () {
+                var _this = this;
+                setTimeout(function () {
+                    if (!$('.popover:hover').length) {
+                        $(_this).popover('hide');
+                    }
+                }, 100);
+            });
+
+              //数据统计
+        function StatisticsData(fir,sec){
+            $.ajax({
+                async: true,
+                type: "get",
+                url: '/Api/ClickLog/click',
+                data: {
+                    'fir': fir,
+                    'sec': sec
+                },
+                dataType: 'jsonp',
+                jsonp: 'callback',
+                success: function(ret) {
+                }
+            });
+        }
+    })
+</script><script>
+(function() {
+    function getCookie(c_name){
+        if (document.cookie.length>0) {
+            c_start=document.cookie.indexOf(c_name + "=")
+            if (c_start!=-1) {
+                c_start=c_start + c_name.length+1
+                c_end=document.cookie.indexOf(";",c_start)
+                if (c_end==-1)
+                c_end=document.cookie.length
+                return unescape(document.cookie.substring(c_start,c_end))
+            }
+        }
+        return ""
+    }
+    var managerCookie = getCookie('climanager_v2');
+    if (managerCookie) {
+        var info = JSON.parse(unescape(getCookie('climanager_v2')))
+
+        if (info.manager_id == '18' || info.manager_id == '19' || info.manager_id == '20') {
+            $('.foot-open-qq-btn').attr('href', info.contact_link);
+            $('.foot-open-qq-btn').attr('target', '_blank');
+        }
+    }
+    $('.foot-open-qq-btn').on('click', function() {
+        StatisticsData(88,2);
+
+        $.ajax({
+            type: 'POST',
+            url: '//' + USER_DOMAIN + '/api/ask/addAsk',
+            xhrFields: {
+                withCredentials: true
+            }
+        });
+    })
+})();
+</script>
+</body>
+</html>
+<script src="qlqrcode_files/public/cli_analytics.js"></script>

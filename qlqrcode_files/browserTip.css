@@ -1,0 +1,5 @@
+[nav_fixed=true] .x-browser-tip {
+    position: fixed;
+    z-index: 998;
+    width: 100%;
+}

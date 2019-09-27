@@ -1,0 +1,978 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="icon" href="qlqrcode_files/images/favicon.ico" mce_href="/static/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="qlqrcode_files/images/favicon.ico" mce_href="/static/images/favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-store">
+<link rel="profile" href="//gmpg.org/xfn/11">
+<script>
+(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
+</script>
+<title>麒麟二维码付费用户服务协议</title>
+<!-- All in One SEO Pack 2.3.4 by Michael Torbert of Semper Fi Web Design[-1,-1] -->
+<meta name="description" itemprop="description" content="麒麟二维码付费用户服务协议 &nbsp; 为避免封码封号，请勿制作虚假官方证件、诱导分享、加群营销、棋牌娱乐、网络电话等违法违规内容，更多详情请阅读《麒麟二维码内容管理规范》 &nbsp; 1. 服务条款的接受与修改 1.1" />
+
+<meta name="keywords" itemprop="keywords" content="未分类" />
+
+<link rel="canonical" href="http://cli.im/news/agreement" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-84134968-1']);
+  _gaq.push(['_setDomainName', 'cli.im/news']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="麒麟二维码技术博客 &raquo; Feed" href="http://cli.im/news/feed" />
+<link rel="alternate" type="application/rss+xml" title="麒麟二维码技术博客 &raquo; 评论Feed" href="http://cli.im/news/comments/feed" />
+<script type="text/javascript">
+	window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"\/news\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.9"}};
+	!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='shadowbox-css-css'  href='qlqrcode_files/news/wp-content/uploads/shadowbox-js/src/shadowbox.css?ver=3.0.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='shadowbox-extras-css'  href='qlqrcode_files/news/wp-content/plugins/shadowbox-js/css/extras.css?ver=3.0.3.10' type='text/css' media='screen' />
+<link rel='stylesheet' id='genericons-css'  href='qlqrcode_files/news/wp-content/themes/twentysixteen/genericons/genericons.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css'  href='qlqrcode_files/news/wp-content/themes/twentysixteen/style.css?ver=4.9.9' type='text/css' media='all' />
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='twentysixteen-ie-css'  href='/news/wp-content/themes/twentysixteen/css/ie.css?ver=20150930' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentysixteen-ie8-css'  href='/news/wp-content/themes/twentysixteen/css/ie8.css?ver=20151230' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentysixteen-ie7-css'  href='/news/wp-content/themes/twentysixteen/css/ie7.css?ver=20150930' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+window.CKEDITOR_BASEPATH = "http://cli.im/news/wp-content/plugins/ckeditor-for-wordpress/ckeditor/";
+var ckeditorSettings = { "textarea_id": "comment", "pluginPath": "http:\/\/cli.im\/news\/wp-content\/plugins\/ckeditor-for-wordpress\/", "autostart": true, "excerpt_state": true, "qtransEnabled": false, "outputFormat": { "indent": true, "breakBeforeOpen": true, "breakAfterOpen": true, "breakBeforeClose": true, "breakAfterClose": true }, "configuration": { "uiColor": "#D3D3D3", "height": "160px", "skin": "moono", "scayt_autoStartup": false, "entities": true, "entities_greek": true, "entities_latin": true, "toolbar": "WordpressBasic", "templates_files": [ "http:\/\/cli.im\/news\/wp-content\/plugins\/ckeditor-for-wordpress\/ckeditor.templates.js" ], "stylesCombo_stylesSet": "wordpress:http:\/\/cli.im\/news\/wp-content\/plugins\/ckeditor-for-wordpress\/ckeditor.styles.js", "allowedContent": true, "customConfig": "http:\/\/cli.im\/news\/wp-content\/plugins\/ckeditor-for-wordpress\/ckeditor.config.js" }, "externalPlugins": [  ], "additionalButtons": [  ] }
+/* ]]> */
+</script>
+<style type="text/css">
+	#content table.cke_editor { margin:0; }
+	#content table.cke_editor tr td { padding:0;border:0; }
+</style><!--[if lt IE 9]>
+<script type='text/javascript' src='/news/wp-content/themes/twentysixteen/js/html5.js?ver=3.7.3'></script>
+<![endif]-->
+<script type='text/javascript' src='qlqrcode_files/news/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='qlqrcode_files/news/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='qlqrcode_files/news/wp-content/plugins/ckeditor-for-wordpress/ckeditor/ckeditor.js?t=F7J8&#038;ver=4.5.3.3'></script>
+<script type='text/javascript' src='qlqrcode_files/news/wp-content/plugins/ckeditor-for-wordpress/includes/ckeditor.utils.js?t=F7J8&#038;ver=4.5.3.3'></script>
+<link rel='https://api.w.org/' href='http://cli.im/news/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="qlqrcode_files/news/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="qlqrcode_files/news/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='如何对批量生成的二维码进行命名？（解决方案版）' href='http://cli.im/news/help/32716' />
+<link rel='next' title='[系统公告]2月7日麒麟二维码线上更新' href='http://cli.im/news/32734' />
+<meta name="generator" content="WordPress 4.9.9" />
+<link rel='shortlink' href='http://cli.im/news/?p=32726' />
+<link rel="alternate" type="application/json+oembed" href="http://cli.im/news/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcli.im%2Fnews%2Fagreement" />
+<link rel="alternate" type="text/xml+oembed" href="http://cli.im/news/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcli.im%2Fnews%2Fagreement&#038;format=xml" />
+<script type="text/javascript" src="//cli.im/news/wp-content/plugins/UEditor-KityFormula/ueditor/third-party/SyntaxHighlighter/shCore.js"></script><link type="text/css" rel="stylesheet" href=" //cli.im/news/wp-content/plugins/UEditor-KityFormula/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" /><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<script type="text/javascript">
+	var CLI_DOMAIN=document.domain;
+	var STATIC_SERVICE="static.clewm.net/cli";
+	var USER_DOMAIN='user.cli.im';
+</script>
+<link rel="stylesheet" href="qlqrcode_files/cli/flatkit/assets/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="qlqrcode_files/cli/flatkit/assets/font-awesome/css/font-awesome.min.css">
+<script src="qlqrcode_files/cli/js/lib/jquery191.js" type="text/javascript"></script>	
+<script src="qlqrcode_files/cli/flatkit/libs/jquery/bootstrap/dist/js/bootstrap_v3.0.js"></script>
+<script src="qlqrcode_files/cli/js/lib/sea.js"></script>		
+<script src="qlqrcode_files/cli/js/lib/sea-config.js?v=20180321"></script>
+<script src="qlqrcode_files/cli/js/service_text.js?v=20190523"></script>
+<script>
+	var _capacity_info = null;
+</script>
+</head>
+
+<body class="post-template-default single single-post postid-32726 single-format-standard custom-background group-blog">
+<header>
+    
+
+<script>
+  (function () {
+    var autoVersion = [1565862619075][0] || 0;
+    document.documentElement.setAttribute('auto_version', autoVersion);
+  })();
+</script>
+<script src="qlqrcode_files/cli/js/browserTip.js?v=1565862619075"></script>
+<link rel="stylesheet" href="qlqrcode_files/cli/css/cli_head_top.css?v=20190606">
+<script type="text/javascript" src="qlqrcode_files/cli/js/capacity-nav-info-common.js?v=1565862619075"></script>
+<script>
+	var account='';
+	var tokenId = '';
+</script>
+<script src="qlqrcode_files/cli/js/cli_head_top.js?v=20190705"></script>
+<script id="support-ab-test" src="qlqrcode_files/cli/js/lib/abtp/index.js"></script>
+<script src="qlqrcode_files/cli/js/slide_top_index_v3.js?v=201908051"></script>
+<style>
+  .top-menu-solution .linkCotent {
+      position: absolute;
+      top: 54px;
+      left: -14px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+      z-index: 1000;
+      display: none;
+  }
+  .top-menu-solution:hover .linkCotent {
+      display: block;
+  }
+  .top-menu-solution .buildingLinks,.top-menu-solution .equipmentLinks {
+      height: 270px;
+  }
+  .top-menu-solution .compositeLinks {
+      height: 270px;
+  }
+</style>
+<div class="cli_head scene_mobile">
+<div class="cli_head_inner cli_head_container">
+	<!--
+	<a href="//cli.im" class="logo pull-left"></a>
+	-->
+	<a href="qlqrcode.htm">
+		<img src="qlqrcode_files/images/cli_logo.png" style="width:300px;height:54px; margin-top:5px;"/>
+	</a>
+	<div class="logpart pull-right">
+		<div id="myqr_out" style="display: none">
+			<div class="cli-normal-main pointer">
+				<img src="" class="account_icon fl" />
+				<em class="user_account" style="position: relative;top: 1px;font-style: normal;float: left;margin-left: 6px;"></em>
+				<em class="cli_head_arrow"><i class="cli_head_arrow_up"></i></em>
+				<div class="header-capacity" id="header-capacity"></div>
+			</div>
+			<a target="_blank" href="javascript:;" class="activeUpdate none" data-toggle="tooltip" data-placement="bottom" title="请升级你的账号">升级</a>
+			<script>__createA();</script>
+		</div>
+		<div id="login_join"  aaa="0" style="">
+			<a href="//user.cli.im/login" class="first" data="join" data-type="login">登录 / 注册</a>
+			<script>__createA();</script>
+		</div>
+	</div>
+	<div class="nav-divider pull-right"></div>
+	<ul class="menu pull-right">
+		<li class="top-menu-item">
+			<a href="qlqrcode.htm" class="menu-hd" id="top-nav-products" onclick="StatisticsData(120, 21)">产品介绍</a>
+		</li>
+		<li class="top-menu-item top-menu-solution" has-dropdown="true" >
+			<a href="solutionCommodity.htm" class="menu-hd" id="top-nav-solution" onclick="StatisticsData(120, 22)">应用案例</a>
+		</li>
+		<li>
+			<a href="price.htm" class="menu-hd" id="top-nav-price" target="_blank" onclick="StatisticsData(120, 122)">价格</a>
+		</li>
+	</ul>
+</div>
+</div>
+<div class="clearfix"></div>
+<input type="hidden" id="STATICURL" value="//static.clewm.net/cli"><script>
+  $('.top-menu-solution').mouseenter(function() {
+    StatisticsData(115, 1);
+  });
+  //数据统计
+  function StatisticsData(fir,sec){
+    $.ajax({
+      async: true,
+      type: "get",
+      url: '/Api/ClickLog/click',
+      data: {
+          'fir': fir,
+          'sec': sec
+      },
+      dataType: 'jsonp',
+      jsonp: 'callback',
+      success: function(ret) {
+      }
+    });
+  }
+</script>    </header> <!-- End header --> 
+ 
+<div class="wraper">
+<div id="page" class="site">
+	<div class="site-inner">
+<style>
+    #wt_header{
+        position:static!important;
+    }
+    .sub_nav .camera {
+      display: none;
+    }
+    .menu-dropdown-solution p{line-height: 1em!important;}
+</style>
+<div id="content" class="site-content">
+<link rel="stylesheet" type="text/css" href="//static.clewm.net/cli/flatkit/assets/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="//static.clewm.net/cli/flatkit/assets/styles/app.min.css">
+<link rel="stylesheet" type="text/css" href="//static.clewm.net/cli/flatkit/assets/styles/cli_global.css">
+<!--[if lt IE 9]>
+    <link rel="stylesheet" href="//static.clewm.net/cli/flatkit/assets/bootstrap/dist/css/bootstrapieV2.css">
+<![endif]-->
+<style type="text/css">
+@media screen and (max-device-width: 768px) {
+	html,body{
+		overflow-x:hidden; 
+	}
+}
+</style>
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+		<!-- <link rel="stylesheet" href="//static.clewm.net/cli/flatkit/assets/bootstrap/dist/css/bootstrap.min.css"> -->
+<script src="//static.clewm.net/cli/flatkit/libs/jquery/bootstrap/dist/js/bootstrap_v3.0.js"></script>
+<script type="text/javascript">
+	function create_qrcode(img_src, href_src, margin_top, margin_bottom) {
+		var tpl = "<div class='scene-qucik-create' style='background-color: #f5f5f5;margin: "+ margin_top +"px 0px "+ margin_bottom +"px;'><a class='class-scene-demo' href="+ img_src +" rel='shadowbox[sbpost-306];player=img;'' style='display: inline-block;vertical-align: middle;box-shadow:none!important;margin-bottom: 0px;'><img src="+ img_src +" alt='' width='555px' /></a><a class='btn mT10 green' href=" + href_src + " target='_blank' style='margin-top: 8px;'>立即生码</a></div>";
+
+		return tpl;
+	}
+	// http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/5b24ba2347d80ac9876b59dfca9af8e11536305331.png
+	// http://qr37.cn/EzbSOW
+	function create_qrcode_two(img1_src, img2_src, margin_top, margin_bottom, is_nencao, bt1_code_qurl, bt1_code_furl, data_id, scene_id) {
+        var tpl = "<div class='scene-qucik-create-new' style='background-color: #f5f5f5;margin: "+ margin_top +"px 0px "+ margin_bottom +"px;padding: 32px 44px; border-radius: 4px;'>"+
+                        "<a class='class-scene-demo' href="+ img1_src +" rel='shadowbox[sbpost-306];player=img;'' style='display: inline-block;vertical-align: middle;box-shadow:none!important;margin-bottom: 0px;'>"+
+                            "<img src="+ img1_src +" alt='' style='width:210px!important;' />"+
+                        "</a>"+
+                        "<a class='class-scene-demo' href="+ img2_src +" rel='shadowbox[sbpost-306];player=img;'' style='display: inline-block;vertical-align: middle;box-shadow:none!important;margin-bottom: 0px;'>"+
+                            "<img src="+ img2_src +" alt='' style='width:210px!important;margin-left:30px;' />"+
+                        "</a>"+
+                        "<div class='scene-qucik-create-twobtn' style='display:inline-block;margin-left: 37px;position: relative;top: 30px;text-align:center;'>"+
+                            "<a  class='btn mT10 green' data-loading-text='正在生成...' style='margin-top: 8px;display:block;' data_id='"+ data_id +"' scene_id='"+ scene_id +"' is_nencao='"+ is_nencao +"' create-wp-qrcode>使用此模版</a>"+
+                            "<a view-read class='"+ (is_nencao ? 'none' : '') +" btn btn-outline b-green text-green' style='margin-top: 24px;' is_nencao='"+ is_nencao +"' qurl="+bt1_code_qurl+" furl="+bt1_code_furl+" >效果预览</a>"+
+                        "</div>"+
+                    "</div>";
+
+        return tpl;
+    }
+
+    function scrollTpl (scene_img_url, code_url, backgroundColor) {
+        var bgColor = backgroundColor ? backgroundColor : '#999999';
+        var tpl = '<div style="width: 100%; height: 400px;background-color: #fff;padding-top: 10px;margin: 0 auto 24px;">'+
+          '<div class="left-img-box" style="width: 190px;height: 390px;border: 1px solid #ddd;position: relative;margin-left: 80px;float: left;background-size: 100%;background-repeat: repeat-y;background-image: url(//blogcdnimg.clewm.net/2019/07/middle2@2x.png);border-radius: 24px;overflow: hidden;z-index: 0;">'+
+                '<div class="imgTopBox" style="position: absolute;z-index: 1;background: '+ bgColor +';">'+
+                  '<img src="//blogcdnimg.clewm.net/2019/07/top_white2@2x.png" alt="" style="width: 190px;">'+
+                '</div>'+
+                '<div class="imgbottomBox" style="position: absolute;bottom: 0px;z-index: -1;">'+
+                  '<img src="//blogcdnimg.clewm.net/2019/07/bottom2@2x.png" alt="" style="width: 190px;">'+
+                '</div>'+
+                '<div class="imgContentPreview" style="width: 180px;height: 374px;border-radius:21px;position: absolute;top: 11px;left: 4px;background: '+ bgColor +';">'+
+                    '<div style="height: 354px;overflow-y: scroll;padding-top: 38px;overflow-x: hidden;">'+
+                        '<img style="width: 174px;margin-left: 3px;height: auto; cursor: pointer;" alt="场景图片" src="'+ scene_img_url +'">'+
+                    '</div>' +
+                '</div>'+
+          '</div>'+
+          '<div class="right-box" style="width: 200px;height: 200px;float: left;margin-left: 150px;margin-top: 90px;background-image: url(http://blogcdnimg.clewm.net/2019/06/four_border.png);background-repeat: no-repeat;background-size: 234px 214px;background-position: -16px -8px;">'+
+            '<img src="'+ code_url +'" style="width: 160px;height: 160px;float: left;margin-left: 21px;margin-top: 21px;" />'+
+          '</div>'+
+          '<div style="float:left;margin-left: 181px;margin-top: 8px;font-weight: bold;color: rgba(0,0,0,.87);">扫码体验完整案例效果</div>'+
+        '</div>';
+
+        return tpl;
+    }
+
+	$(document).on("click", '[view-read]', function(){
+		           
+        var qurl = $(this).attr('qurl');
+        var furl = $(this).attr('furl');
+        seajs.use('//'+STATIC_SERVICE+'/js/preview.js?t=20170420', function(preview) {
+            preview.mobile_preview(qurl,furl,'','yes','case');//引入预览层并传入地址及详情链接
+        });
+    });
+
+    //******** 活吗复制And嫩草码复制
+        function CopyCaseHuoma(id){                    
+                $.ajax({
+                    type: "GET",
+                    url: '/apis/QrcodeCase/copy',
+                    data: {
+                        case_id: id,
+                        from_id: 6,
+                    },
+                    dataType: "json",
+                    success: function(ret) {
+                        $('[create-wp-qrcode]').button('reset');
+                        if (ret.status == 1) {
+                            window.location.href = ret.data.edit_link;
+                        } else {
+                            alert(ret.info,'danger');
+                        }
+                    }
+                });
+        }
+
+        function checkLoginHuoma(dataId){
+            if (account == "") {
+                $("#modal-intro").modal("hide");
+                seajs.use('//'+STATIC_SERVICE+'/js/login_plugin.js?v=20180906',function(cli){
+                    cli.login_plugin('login','',function(){
+                        $("#iframe").hide();
+                        $("#login_join", window.parent.document).hide();
+                        $('#close_login', window.parent.document).hide();  
+                        $('body',window.parent.document).removeClass('modal-active');
+                        $('#login',window.parent.document).hide();
+                        $('#myqr_out', window.parent.document).show();  // window可省略不写
+                        CopyCaseHuoma(dataId);
+                    },1,'');
+                  }); 
+                  return false;
+            } else {
+                CopyCaseHuoma(dataId);
+            }
+        }
+
+        // 嫩草码案例复制方法
+        function CopyCaseNencao(id, is_preview, scene_id){
+            // 防止新页面打开被拦截
+            // var newTab = window.open('loading page');
+
+            $.ajax({
+                type: "GET",
+                url: '/apis/QrcodeCase/copyV2',
+                data: {
+                    btn_id: id,
+                    preview: is_preview,
+                    scene_id: scene_id
+                },
+                dataType: "json",
+                success: function(ret) {
+                    $('[create-wp-qrcode]').button('reset');
+                    if (ret.status == 1) {
+                        window.location.href = ret.data.edit_link;
+                        // newTab.location.href = ret.data.edit_link;
+                    } else if(2 == ret.status) {
+                        needLogin(id, is_preview, scene_id, ret.info);
+                    } else {
+                        alert(ret.info,'danger');
+                    }
+                }
+            });
+        }
+
+        $(document).on('click', '[create-wp-qrcode]', function(){
+            var is_nencao = $(this).attr('is_nencao'),
+                dataId = $(this).attr('data_id'),
+                sceneId = $(this).attr('scene_id');
+                $(this).button('loading');
+
+            if (is_nencao == 0) {
+                checkLoginHuoma(dataId);
+            }   else {
+                CopyCaseNencao(dataId, 0, sceneId);
+            }
+        })
+
+        //******** 活吗复制And嫩草码复制
+
+
+</script>
+
+<article id="post-32726" class="post-32726 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title">麒麟二维码付费用户服务协议</h1>	</header><!-- .entry-header -->
+
+	
+		<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><span rel="bookmark"><time class="entry-date published" datetime="2018-02-06">2018-02-06</time><time class="updated" datetime="2018-07-31">2018 年 7 月 31 日</time></span></span>			</footer><!-- .entry-footer -->
+	<div class="entry-content old-article-content-style">
+		<p align="center">
+	<span style="line-height:2;"><span style="font-size:18px;"><strong>麒麟二维码付费用户服务协议</strong></span></span>
+</p>
+<p align="center">
+	&nbsp;
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;"><span style="color:#FF0000;">为避免封码封号，请勿制作虚假官方证件、诱导分享、加群营销、棋牌娱乐、网络电话等违法违规内容，更多详情请阅读<a>《麒麟二维码内容管理规范》</a></span></span></span>
+</p>
+<p align="left">
+	&nbsp;
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:16px;"><strong>1. 服务条款的接受与修改</strong></span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">1.1 本协议是付费用户与宁波邻家网络科技有限公司旗下麒麟二维码网站（下称&ldquo;麒麟二维码&rdquo;）之间关于用户成为麒麟二维码付费用户且使用麒麟二维码提供的付费用户服务所订立的协议。本协议描述麒麟二维码与付费用户之间关于软件许可以及服务使用及相关方面的权利义务。&ldquo;付费用户&rdquo;或&ldquo;您&rdquo;是指享受麒麟二维码提供的付费用户服务的个人或单一实体。本服务协议构成您（无论个人或者单位）使用麒麟二维码所提供的付费用户服务之先决条件，除非您接受本协议条款，否则您无权使用本协议的相关服务。您的使用行为将视为同意接受本协议各项条款的约束。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">1.2 麒麟二维码有权随时对服务条款进行修改，一旦服务条款发生变更和修改，麒麟二维码将在相关页面上提示修改的内容；如果付费用户不同意本协议的修改，可以取消已经获取的服务并停止使用；如果付费用户继续使用麒麟二维码提供的服务，则视为付费用户已经接受本协议的全部修改。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">1.3 请您审阅并接受或不接受本协议，未成年人应在法定监护人陪同下审阅和履行，未成年人行使和履行本协议项下的权利和义务视为已获得了法定监护人的认可，您在享受麒麟二维码付费用户服务时必须完全、严格遵守本服务协议条款。</span></span>
+</p>
+<p align="left">
+	<span style="font-size:16px;"><span style="line-height:3;"><strong>2. 服务说明</strong></span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">2.1 麒麟二维码付费用户服务涉及的麒麟二维码产品所有权以及相关软件知识产权归麒麟二维码所有。麒麟二维码所提供的服务将按照其服务条款和操作规则严格执行。付费用户在享受麒麟二维码任何单项服务时，应当受本协议以及《麒麟二维码用户协议》的约束。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">2.2 麒麟二维码享有对付费用户网上一切活动的监督、提示、检查的权利，如付费用户的行为违反有关法律法规或违反本协议条款的约定，麒麟二维码享有要求其纠正及追究其责任等权利。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">2.3 麒麟二维码向付费用户提供的全部服务，均仅限于付费用户在麒麟二维码平台使用，任何以恶意破解等非法手段将麒麟二维码提供的服务内容与麒麟二维码平台分离的行为，均不属于本协议中约定的麒麟二维码提供的服务。由此引起的一切法律后果由行为人负责，麒麟二维码将依法追究行为人的法律责任。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">2.4 当付费用户使用麒麟二维码各单项服务时，付费用户的使用行为视为其对各单项服务的服务条款以及麒麟二维码在该单项服务中发出各类公告的同意。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">2.5 您明确了解并同意，麒麟二维码付费用户的付费方式为代收费运营商托收的付款方式，您通过此种付费方式付费可能存在一定的商业风险，包括但不限于不法分子利用您账户或银行卡等有价卡等进行违法活动，该等风险均会给您造成相应的经济损失。您应自行承担向侵权方追究侵权责任和追究责任不能的后果。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">2.6 您应自行负责妥善且正确地保管、使用、维护您在麒麟二维码申请取得的账户、账户信息及账户密码。您应对您账户信息和账户密码采取必要和有效的保密措施。非麒麟二维码原因致使您账户密码泄漏以及因您保管、使用、维护不当造成损失的，麒麟二维码无须承担与此有关的任何责任。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">2.7 麒麟二维码不对您因第三方的行为或不作为造成的损失承担任何责任，包括但不限于支付服务和网络接入服务、任意第三方的侵权行为。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">2.8 根据《信息网络传播权保护条例》规定，任何组织或个人将他们作品、表演、录音录像制品通过信息网络向公众提供，应当收取权利人的许可并支付报酬。对提供信息存储或提供搜索、外链服务的网络服务提供者，有权删除侵犯权利人相关作品、表演、录音录像制品内容或指向链接。麒麟二维码有权对相关内容进行审核，并根据《信息网络传播权保护条例》执行。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:3;"><span style="font-size:16px;"><strong>3. 成为付费用户的程序</strong></span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">3.1 在成为麒麟二维码付费用户之前，您必须先根据真实、准确信息注册成为麒麟二维码用户。用户所填写的内容与个人资料必须真实有效，否则麒麟二维码有权拒绝其申请或撤销其付费用户资格，并不予任何赔偿或退还付费用户服务费。付费用户的个人资料发生变化，应及时修改注册的个人资料，否则由此造成的付费用户权利不能全面有效行使的责任由付费用户自己承担，麒麟二维码有权因此取消其付费用户资格，并不予退还付费用户费或其他任何形式的任何赔偿。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">3.2 用户可通过各种已有和未来新增的渠道成为麒麟二维码付费用户，包括但不限于：通过网银支付、手机支付或第三方支付等方式成为付费用户。在用户使用具体某种方式成为付费用户时，须阅读并确认接受相关的服务条款和使用方法。麒麟二维码在此声明：麒麟二维码从未授权任何第三方单位或个人销售、转让麒麟二维码付费用户资格，任何未经授权销售麒麟二维码付费用户的属于非法销售，麒麟二维码有权追究其法律责任。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">3.3 成为付费用户后，付费用户有权利不接受麒麟二维码的服务，可申请取消付费用户服务，但不获得付费用户服务费的退还。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">3.4 麒麟二维码付费用户账号所有权归麒麟二维码所有，付费用户拥有麒麟二维码账号的有限使用权。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">3.5 麒麟二维码仅提供相关的网络服务，除此之外与相关网络服务有关的设备（如个人电脑、手机、及其他与接入互联网或移动网有关的装置）及所需的费用（如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费）均应由付费用户自行负担。</span></span>
+</p>
+<p align="left">
+	<span style="font-size:16px;"><span style="line-height:3;"><strong>4. 付费用户服务和账号查询</strong></span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">4.1 一旦您成为麒麟二维码付费用户，即视为您认可该项服务标明之价格；成为麒麟二维码付费用户后，该项服务即时生效。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">4.2 付费用户的增值服务标准以麒麟二维码网站上标注的详细资费标价为准。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">4.3 您可以通过登录麒麟二维码管理系统后台免费查询您的账号信息详情，包括已开通的服务内容、服务期限等。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:3;"><span style="font-size:16px;"><strong>5. 付费用户权限及服务期限</strong></span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">5.1 您的功能：您的付费功能使用周期不会因未使用服务、未生成二维码等情况而延长。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">5.2 付费用户服务提供的增值功能是按照付费年限来计算的，您一旦成为付费用户即视为认可它的服务期限。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:3;"><span style="font-size:16px;"><strong>6. 付费用户的权利及限制</strong></span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">6.1 在付费用户有效期内，付费用户可优先参加由麒麟二维码组织的活动并享有由麒麟二维码提供的各项优惠及增值服务。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">6.2 付费用户服务仅限于申请账号自行使用；付费用户服务期内不能在麒麟二维码帐号之间转移，禁止赠与、借用、转让或售卖。否则麒麟二维码有权在未经通知的情况下取消转让账户、受让账户的付费用户服务资格，由此带来的损失由付费用户自行承担。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">6.3 若付费用户的行为持续违反本协议或违反国家相关法律法规，或麒麟二维码认为付费用户行为有损麒麟二维码或他人的声誉及利益，麒麟二维码公司有权取消该付费用户的付费用户资格而无须给与任何补偿。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">6.4 付费用户不得以盗窃、利用系统漏洞等非法途径以及在未获麒麟二维码授权的非法销售麒麟二维码付费用户的网站上获取或购买付费用户服务，否则麒麟二维码有权取消付费用户的服务资格。有此引发的问题由付费用户自行承担，麒麟二维码不负任何责任。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">6.5 被取消付费用户资格的付费用户，不能再参加由麒麟二维码组织的活动并不可再享有由麒麟二维码提供的各项优惠及增值服务，即不再享有付费用户权利。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:3;"><span style="font-size:16px;"><strong>7. 付费用户生成和使用二维码规则</strong></span></span>
+</p>
+<div align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">7.1 付费用户在使用麒麟二维码服务时，必须遵守中华人民共和国相关法律法规的规定，用户应同意将不会利用本服务进行任何违法或不正当的活动，包括但不限于下列行为∶</span></span>
+</div>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">(1)上载、展示、张贴、传播或以其它方式传送含有下列内容之一的信息：</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">1) 反对宪法所确定的基本原则的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">2) 危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">3) 损害国家荣誉和利益的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">4) 煽动民族仇恨、民族歧视、破坏民族团结的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">5) 破坏国家宗教政策，宣扬邪教和封建迷信的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">6) 散布谣言，扰乱社会秩序，破坏社会稳定的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">7) 散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">8) 侮辱或者诽谤他人，侵害他人合法权利的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">9) 含有虚假、有害、胁迫、侵害他人隐私、骚扰、侵害、中伤、粗俗、猥亵、或其它道德上令人反感的内容；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">10) 含有中国法律、法规、规章、条例以及任何具有法律效力之规范所限制或禁止的其它内容的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">(2) 不得为任何非法目的而使用麒麟二维码生成系统；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">(3) 不利用麒麟二维码服务从事以下活动：</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">1) 未经允许，进入计算机信息网络或者使用计算机信息网络资源的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">2) 未经允许，对计算机信息网络功能进行删除、修改或者增加的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">3) 未经允许，对进入计算机信息网络中存储、处理或者传输的数据和应用程序进行删除、修改或者增加的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">4) 故意制作、传播计算机病毒等破坏性程序的；</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">5) 其他危害计算机信息网络安全的行为。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">7.2 用户违反本协议或相关的服务条款的规定，导致或产生的任何第三方主张的任何索赔、要求或损失，包括合理的律师费，您同意赔偿麒麟二维码与合作公司、关联公司，并使之免受损害。对此，麒麟二维码有权视用户的行为性质，采取包括但不限于删除用户发布信息内容、暂停使用许可、终止服务、限制使用、回收麒麟二维码帐号、将相应违规信息提交给相关单位、追究法律责任等措施。对恶意注册麒麟二维码帐号或利用麒麟二维码帐号进行违法活动、捣乱、骚扰、欺骗其他用户以及其他违反本协议的行为，麒麟二维码有权回收其帐号。同时，麒麟二维码公司会视司法部门的要求，协助调查。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">7.3　用户须对自己在使用麒麟二维码服务过程中的行为承担法律责任。用户承担法律责任的形式包括但不限于：对受到侵害者进行赔偿，以及在麒麟二维码首先承担了因用户行为导致的行政处罚或侵权损害赔偿责任后，用户应给予麒麟二维码等额的赔偿。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:3;"><span style="font-size:16px;"><strong>8. 协议的变更</strong></span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">8.1 鉴于网络服务的特殊性，麒麟二维码有权随时变更、中断或终止部分或全部的网络服务。对付费用户服务提供的功能使用期限、购买价格保留随时变更的权利，麒麟二维码保留随时修改或中断服务而不需通知您的权利，对于所有服务的中断或终止而造成的任何损失，麒麟二维码无需对您或任何第三方承担任何责任。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">8.2 麒麟二维码对付费用户协议一旦进行修改，将在页面上公示修改的内容。一经公布即视为通知付费用户 。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">8.3 付费用户服务提供的使用期限中包含麒麟二维码解决故障、服务器维修、调整、升级等所需用的合理时间，对上述情况所需用的时间麒麟二维码不予补偿并保留解释权。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">8.4 付费用户在使用麒麟二维码所提供的服务时，如遭受任何人身或财务的损失、损害或伤害，不论原因如何，麒麟二维码均不负责任。由于付费用户将个人密码告知他人或与他人共享注册帐户，由此导致的任何个人资料泄露，麒麟二维码不负任何责任。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">8.5 付费用户如果不同意条款的修改，可主动向麒麟二维码提出终止付费用户服务，但麒麟二维码不退还所有已支付的付费用户费用；如果付费用户继续享用付费用户服务，则视为付费用户已经接受条款的修改。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:3;"><span style="font-size:16px;"><strong>9. 服务的中断和终止</strong></span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">9.1 因发生麒麟二维码不可抗拒的事由，如政府行为、不可抗力，导致付费用户服务无法继续，麒麟二维码会以最快的速度通知付费用户，但不承担由此对付费用户造成的任何损失并不退还付费用户服务费。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">9.2 如付费用户违反或被视为违反本服务条款中的内容，麒麟二维码有权在不通知付费用户的情况下立即终止您已购买的所有服务，以及取消您的麒麟二维码付费用户账户和使用权限，但不退还任何已缴纳的付费用户服务费用。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">9.3 麒麟二维码未行使或延迟行使其在本协议项下的权利并不构成对这些权利的放弃，而单一或部分行使其在本协议项下的任何权利并不排斥其任何其它权利的行使。麒麟二维码随时有权要求您继续履行义务并承担相应的违约责任。</span></span>
+</p>
+<p align="left">
+	<span style="font-size:16px;"><span style="line-height:3;"><strong>10. 法律的适用和管辖</strong></span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">10.1 本服务条款的生效、履行、解释及争议的解决均适用中华人民共和国法律，本服务条款因与中华人民共</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">和国现行法律相抵触而导致部分无效，不影响其他部分的效力。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">10.2 如就本协议内容或其执行发生任何争议，应尽量友好协商解决；协商不成时，则争议各方一致同意将发生的争议提交协商不成时，任何一方均可向北京市海淀区人民法院提起诉讼。</span></span>
+</p>
+<p align="left">
+	&nbsp;
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">请您在发现任何违反本服务协议以及其他任何单项服务的服务条款、麒麟二维码各类公告之情形时，通知麒麟二维码。</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">您可以通过如下联络方式同麒麟二维码联系：</span></span>
+</p>
+<p align="left">
+	&nbsp;
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">山东省青岛市黄岛区双珠路288号东方金石大厦8F</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">麒麟二维码</span></span>
+</p>
+<p align="left">
+	<span style="line-height:2;"><span style="font-size:14px;">邮政编码：266000</span></span>
+</p>
+<p>
+	&nbsp;
+</p>
+<p>
+	&nbsp;</p>
+	</div><!-- .entry-content -->
+
+</article><!-- #post-## -->
+		<footer class="blog_entry_footer">
+
+        		<div class="entry_category">
+				<a href="http://cli.im/news/category/uncategorized" rel="category tag">未分类</a>				</div>
+        		</footer>
+		</footer>
+	</main><!-- .site-main -->
+
+	
+</div><!-- .content-area -->
+
+<aside id="secondary" class="sidebar widget-area" role="complementary">
+    	<section id="%1$s" class="widget %2$s" style='padding-top:30px'>
+		
+<!-- <form role="search" method="get" class="search-form" action="http://cli.im/news/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="hidden" name='cat' value="">
+		<input type="search" class="search-field" placeholder="请输入搜索内容" value="" name="s" title="Search for:" />
+	</label>
+	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+</form> -->
+
+<form role="search" method="get" class="input-group" action="/news/">
+    <input type="hidden" name='cat' value="">
+    <input class="form-control search-control" placeholder="搜索问题或关键词..." value="" name="s" title="" style="border-radius: 4px 0 0 4px;"/>
+    <span class="input-group-btn">
+        <button type="submit" class="btn white" type="button" style="height: 38px;"><i class="fa fa-search">&nbsp;</i></button>
+    </span>
+</form>	</section>
+	<section id="%1$s" class="widget %2$s">
+	 
+        <h2 class="widget-title" id="-posts">
+    未分类    </h2>
+    <ul>
+     
+    <li> 
+        <a>固定资产二维码应用教程</a> 
+    </li>
+     
+    <li> 
+        <a>空码功能介绍（新版）</a> 
+    </li>
+     
+    <li> 
+        <a>访客登记二维码应用教程</a> 
+    </li>
+     
+    <li> 
+        <a>留言建议二维码应用教程</a> 
+    </li>
+     
+    <li> 
+        <a>标签排版打印营销页</a> 
+    </li>
+     
+	</ul>
+        </section>
+         
+   	</section>
+    <!-- 遍历相关文章 -->
+    <br/>
+</aside><!-- .sidebar .widget-area -->			</div><!-- .site-content -->
+		</div><!-- .site-inner -->
+	</div><!-- .site -->
+</div><!--.wraper-->
+<script type="text/javascript">SyntaxHighlighter.all();</script><script type='text/javascript' src='/news/wp-admin/admin-ajax.php?action=shadowboxjs&#038;cache=7d008b13748ce36392ae450debdcd5a5&#038;ver=3.0.3'></script>
+<script type='text/javascript' src='/news/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js?ver=20151112'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/news/wp-content/themes/twentysixteen/js/functions.js?ver=20151204'></script>
+<script type='text/javascript' src='/news/wp-includes/js/wp-embed.min.js?ver=4.9.9'></script>
+
+<!-- Begin Shadowbox JS v3.0.3.10 -->
+<!-- Selected Players: html, iframe, img, qt, swf, wmp -->
+<script type="text/javascript">
+/* <![CDATA[ */
+	var shadowbox_conf = {
+		autoDimensions: false,
+		animateFade: true,
+		animate: true,
+		animSequence: "sync",
+		autoplayMovies: true,
+		continuous: false,
+		counterLimit: 10,
+		counterType: "default",
+		displayCounter: true,
+		displayNav: true,
+		enableKeys: true,
+		flashBgColor: "#000000",
+		flashParams: {bgcolor:"#000000", allowFullScreen:true},
+		flashVars: {},
+		flashVersion: "9.0.0",
+		handleOversize: "resize",
+		handleUnsupported: "link",
+		initialHeight: 160,
+		initialWidth: 320,
+		modal: false,
+		overlayColor: "#000",
+		showMovieControls: true,
+		showOverlay: true,
+		skipSetup: false,
+		slideshowDelay: 0,
+		useSizzle: false,
+		viewportPadding: 20
+	};
+	Shadowbox.init(shadowbox_conf);
+/* ]]> */
+</script>
+<!-- End Shadowbox JS -->
+
+<script type="text/javascript" src="qlqrcode_files/cli/js/qqserver_clicklog-jq1.9.1.js"></script>
+<link rel="stylesheet" href="qlqrcode_files/cli_footer_new_7148ff6.css">
+<div class="cli_foot">
+    <div class="footer-tool-box">
+        <ul class="W1000 global-not-select footer-tool-item-ul">
+            <li class="footer-tool-item icon-forever">
+                长期有效
+            </li>
+            <!-- <li class="footer-tool-item icon-serve">
+                服务无忧
+            </li> -->
+            <li class="footer-tool-item icon-safe">
+                数据安全
+            </li>
+            <li class="footer-tool-item icon-privacy">
+                隐私保护
+            </li>
+            <li class="footer-tool-item icon-available">
+                高可用性
+            </li>
+        </ul>
+    </div>
+    <div class="footer-category-box">
+        <div class="foot-box W1000 global-not-select">
+			<div class="footer-info-item">
+				<div class="title">电话：0532-55588351</div>
+			</div>
+			<div class="footer-info-item">
+				<div class="title">传真：0532-55588352</div>
+			</div>
+			<div class="footer-info-item" style="width:200px;">
+				<div class="title">邮箱：qdhualing@126.com</div>
+			</div>
+			<div class="footer-info-item">
+				<div class="title">商话1：15712773653</div>
+			</div>
+			<div class="footer-info-item">
+				<div class="title">商话2：15315019919</div>
+			</div>
+			<div class="footer-info-item" style="width:350px;">
+				<div class="title">地址：山东省黄岛区双珠路288号东方金石大厦8F </div>
+			</div>
+        </div>
+        <div class="copyright W1000">
+            <div class="copyright-inner">
+				<a href="http://www.qdhualing.com" target="_blank">青岛华凌科技有限公司</a>&nbsp;&nbsp;
+				<div class="copyright-box">
+					<span class="record-case" style="">鲁ICP备15031378号</span>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <script type="text/javascript" src="//static.clewm.net/cli/js/mail_reply.js"></script> -->
+<script>
+    function resetShadowBox() {
+		$('p img').each(function(i,item) {	
+			var url;
+			url = this.src; 
+
+			$(item).mouseover(function(){
+				$(this).css('cursor','pointer');
+			}).mouseleave(function(){
+				$(this).css('cursor','default');
+			})
+			
+			if (! this.parentNode.href) {
+				$(this).wrap("<a href='"+url+"' rel='shadowbox[sbalbum-81];player=img;'></a>");
+			}
+		});
+
+		$('.gallery-item img').each(function(i,item){
+			
+			$(item).mouseover(function(){
+				$(this).css('cursor','pointer');
+			}).mouseleave(function(){
+				$(this).css('cursor','default');
+			})
+		});
+		if (typeof Shadowbox !== 'undefined') {
+			Shadowbox.init({ skipSetup: true });
+			Shadowbox.setup();
+		}
+	}
+
+    function isMac() { 
+        return /macintosh|mac os x/i.test(navigator.userAgent); 
+    }
+
+    $(function(){
+        $('.cli_foot .qq_show').hover(function(e) {
+            $('ul.qq_list').toggle();
+            e.stopPropagation();
+        });
+        // 拿取容量
+        is_login_account();
+
+        if (!isMac()) {
+            $('html').attr('is_mac', false);
+        }
+
+        $('[data-toggle="popover"]')
+            .popover({
+              trigger: 'manual',
+              animation: false,
+            })
+            .on('mouseenter', function () {
+                var _this = this;
+                $('.popover').remove();
+                $(this).popover('show');
+                $('.popover').find('.arrow').addClass('beforeNone');
+                $('.popover').on('mouseleave', function () {
+                    $(_this).popover('hide');
+                });
+            }).on('mouseleave', function () {
+                var _this = this;
+                setTimeout(function () {
+                    if (!$('.popover:hover').length) {
+                        $(_this).popover('hide');
+                    }
+                }, 100);
+            });
+
+              //数据统计
+        function StatisticsData(fir,sec){
+            $.ajax({
+                async: true,
+                type: "get",
+                url: '/Api/ClickLog/click',
+                data: {
+                    'fir': fir,
+                    'sec': sec
+                },
+                dataType: 'jsonp',
+                jsonp: 'callback',
+                success: function(ret) {
+                }
+            });
+        }
+        resetShadowBox();
+    })
+
+    // 是否登录
+    function is_login_account () {
+        $.ajax({
+            url: "/news/wp-admin/admin-ajax.php",
+            data: {
+                action: 'show_token_id'
+            },
+            async: true,
+            success: function(ret) {
+                if (ret == 0) {
+                    return;
+                } else {
+                    getCapacityInfo(ret);
+                }
+            }
+        });
+    }
+
+    // 拿到版本信息
+    function getCapacityInfo(user_id) {
+        $.ajax({
+            url: "/api/user/get_user_capacity",
+            async: true,
+            success: function(ret) {
+                if (ret.status = 1) {
+                    _capacity_info = ret.data;
+
+                    // 展示小图标
+                    showVersionIcon(_capacity_info.from_edition_id);
+
+                    // 重新渲染下拉框
+                    window.CapacityNavInfo({
+                        capacityInfo: _capacity_info,
+                        isCenter: 0,
+                        user_id: user_id
+                    });
+
+                } else {
+                    alert('容量信息获取失败');
+                }
+            }
+        });
+    }
+
+    // 展示付费图标
+    function showVersionIcon(edition_id) {
+        if (edition_id != 1) {
+            if ($('.cli-normal-main .account_icon').length > 0) {
+                $('.cli-normal-main .account_icon').attr('src', '//'+STATIC_SERVICE+'/images/shoufei-icon@2x.png');
+            } else {
+                $('.cli-normal-main').prepend('<img src="//'+STATIC_SERVICE+'/images/shoufei-icon@2x.png" class="account_icon fl">');
+            }
+        } else {
+            if ($('.cli-normal-main .account_icon').length > 0) {
+               $('.cli-normal-main .account_icon').attr('src', '//'+STATIC_SERVICE+'/images/free-icon@2x.png');
+            } else {
+               $('.cli-normal-main').prepend('<img src="//'+STATIC_SERVICE+'/images/free-icon@2x.png" class="account_icon fl">');
+            }
+        }
+    }
+</script>
+</body>
+</html>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?cb508e5fef81367bfa47f4ec313bf68c";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--谷歌统计-->
+<script src="//static.clewm.net/public/cli_analytics.js"></script>
+
+
+
+<!-- Dynamic page generated in 0.601 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-08-16 14:34:34 -->
+
+<!-- super cache -->

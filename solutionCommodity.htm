@@ -1,0 +1,1126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>麒麟二维码</title>
+<link rel="stylesheet" href="qlqrcode_files/static/css/page-index-screen_51b1169.css">
+<link rel="icon" href="qlqrcode_files/images/favicon.ico" mce_href="qlqrcode_files/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="qlqrcode_files/images/favicon.ico" mce_href="/static/images/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="" />
+<link rel="stylesheet" href="qlqrcode_files/cli/flatkit/assets/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="qlqrcode_files/cli/flatkit/assets/styles/app.min.css?v=20190711">
+<link rel="stylesheet" href="qlqrcode_files/cli/flatkit/assets/styles/cli_global.css?v=20190528">
+<link rel="stylesheet" href="qlqrcode_files/cli/flatkit/assets/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="qlqrcode_files/cli/css/clicon.css?v=20180820">
+<script src="qlqrcode_files/cli/js/service_text.js?v=20190523"></script>
+<script src="qlqrcode_files/cli/js/consult.js?v=20181010"></script>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="//static.clewm.net/cli/flatkit/assets/bootstrap/dist/css/bootstrapieV2.css">
+<script src="//static.clewm.net/cli/js/lib/plug/respond.min.js"></script>
+<script src="//static.clewm.net/cli/js/lib/plug/html5shiv.min.js"></script>
+<![endif]-->
+<script src="qlqrcode_files/cli/js/lib/jquery191.js"></script>
+<script src="qlqrcode_files/cli/flatkit/libs/jquery/bootstrap/dist/js/bootstrap_v3.0.js"></script>
+<script src="qlqrcode_files/static/js/lib/sea_3c3cab9.js"></script>
+<script>
+var CLI_DOMAIN='cli.im',
+	USER_DOMAIN='user.cli.im',
+	BIZ_DOMAIN='biz.cli.im',
+	QRAPI_DOMAIN='qrapi.cli.im',
+	STATIC_SERVICE='static.clewm.net/cli';
+</script>
+<script src="qlqrcode_files/static/js/common_d5afedb.js"></script>
+<style type="text/css">
+	@media screen and (max-device-width: 415px) {
+		.scene_mobile {
+			display: none;
+		}
+	}
+	@media screen and (min-device-width: 800px) {
+		.scene_mobile {
+		}
+	}
+
+</style>
+<script>
+	var _is_new = "";
+	var _capacity_info = null;
+</script>
+<script src="https://https-proxy.cli.im/ip-get&ip=123.168.122.244" type="text/ecmascript"></script>
+<script src="qlqrcode_files/static/js/sea-config_bc48384.js"></script>
+</head>
+<body>
+<input id="topicId" type="hidden" value=""><input id="isAdmin" type="hidden" value=""><script>
+  (function () {
+    var autoVersion = [1564714562113][0] || 0;
+    document.documentElement.setAttribute('auto_version', autoVersion);
+  })();
+</script>
+<script src="qlqrcode_files/cli/js/browserTip.js?v=1564714562113"></script>
+<link rel="stylesheet" href="qlqrcode_files/cli/css/cli_head_top.css?v=20190606">
+<script type="text/javascript" src="qlqrcode_files/cli/js/capacity-nav-info-common.js?v=1564714562113"></script>
+<script>
+	var account='';
+	var tokenId = '';
+</script>
+<script src="qlqrcode_files/cli/js/cli_head_top.js?v=20190705"></script>
+<script id="support-ab-test" src="qlqrcode_files/cli/js/lib/abtp/index.js"></script>
+<script src="qlqrcode_files/cli/js/slide_top_index_v3.js?v=20190718"></script>
+<style>
+  .top-menu-solution .linkCotent {
+      position: absolute;
+      top: 54px;
+      left: -14px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+      z-index: 1000;
+      display: none;
+  }
+  .top-menu-solution:hover .linkCotent {
+      display: block;
+  }
+  .top-menu-solution .buildingLinks,.top-menu-solution .equipmentLinks {
+      height: 270px;
+  }
+  .top-menu-solution .compositeLinks {
+      height: 270px;
+  }
+</style>
+<!--
+<script>
+  (function () {
+    function getCookie(name) {
+        var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+        if (arr != null) {
+            return (arr[2]);
+        }
+    }
+
+    window.__createA = function () {
+      var html = [];
+      if (location.host.indexOf('cli.me') > -1) {
+        html.push('<a href="//user.cli.im" class="newfirst mycode" data="manage" data-type="manage" onclick="StatisticsData(120,1)">我的二维码</a>');
+      } else {
+        html.push('<a href="//console.cli.im/center" class="newfirst mycode" data="manage" data-type="manage" onclick="StatisticsData(120,1)">我的二维码</a>');
+      }
+      document.write(html.join(''));
+    };
+  })();
+</script>
+-->
+<div class="cli_head scene_mobile">
+	<div class="cli_head_inner cli_head_container">
+		<a href="qlqrcode.htm">
+			<img src="qlqrcode_files/images/cli_logo.png" style="width:300px;height:54px; margin-top:5px;"/>
+		</a>
+		<div class="logpart pull-right">
+			<div id="myqr_out" style="display: none">
+				<div class="cli-normal-main pointer">
+					<img src="" class="account_icon fl" />
+					<em class="user_account" style="position: relative;top: 1px;font-style: normal;float: left;margin-left: 6px;"></em>
+					<em class="cli_head_arrow">
+						<i class="cli_head_arrow_up"></i>
+					</em>
+					<div class="header-capacity" id="header-capacity"></div>
+				</div>
+				<a target="_blank" href="javascript:;" class="activeUpdate none" data-toggle="tooltip" data-placement="bottom" title="请升级你的账号">升级</a>
+				<script>__createA();</script>
+			</div>
+			<div id="login_join"  aaa="0" style="">
+				<a class="first" data="join" data-type="login" onClick="location.href='http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/login';">登录 / 注册</a>
+				<script>__createA();</script>
+			</div>
+		</div>
+		<div class="nav-divider pull-right"></div>
+		<ul class="menu pull-right">
+			<li class="top-menu-item">
+				<a href="qlqrcode.htm" class="menu-hd" id="top-nav-products" onclick="StatisticsData(120, 21)">产品介绍</a>
+			</li>
+			<li class="top-menu-item top-menu-solution" has-dropdown="true" >
+				<a href="solutionCommodity.htm" class="menu-hd" id="top-nav-solution" onclick="StatisticsData(120, 22)">
+					应用案例
+					<i class="fa fa-angle-down" style="width: 10px;"></i>
+				</a>
+				<link rel="stylesheet" href="qlqrcode_files/static/css/page-catalogue-new-v2_0412ffe.css">
+				<style type="text/css">
+					.solution-tip-arrow {
+					  width: 0;
+					  height: 0;
+					  top: -12px;
+					  left: 338px;
+					  position: absolute;
+					  border-left: 12px solid transparent;
+					  border-right: 12px solid transparent;
+					  border-bottom: 11px solid #e5e5e5;
+					}
+				
+					.solution-tip-inner-arrow {
+					  width: 0;
+					  height: 0;
+					  top: -11px;
+					  left: 338px;
+					  position: absolute;
+					  border-left: 12px solid transparent;
+					  border-right: 12px solid transparent;
+					  border-bottom: 11px solid #fff;
+					}
+				</style>
+					<!--
+				<div class="linkCotent clearfix">
+					<div class="solution-tip-arrow" style="left: 330px;"></div>
+					<div class="solution-tip-inner-arrow" style="left: 330px;"></div>
+					<div class="bgTransparent"></div>
+					<div class="linkCotent-box">
+						<div class="linkCotent-left-box col-md-4">
+							<h3 class="solution-title-new">行业</h3>
+							<section class="linkCotent-solution-section" style="margin-top: 8px;">
+								<ul class="linkCotent-item">
+									<li class="solution-info solution-info-first">
+										<a class="solution-info-href" target="_blank" href="//cli.im/solution/commodity?from=hy" onclick="StatisticsData(116, 21)">
+											<h4>贸易零售</h4>
+											<p>展示产品详情，分享商业资料，增加营销机会</p>
+										</a>
+									</li>
+									<li class="solution-info">
+										<a class="solution-info-href" target="_blank" href="//cli.im/solution/building?from=hy" onclick="StatisticsData(116, 22)">
+											<h4>建筑施工</h4>
+											<p>实现信息共享，规范施工管理，降低安全隐患</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+							<div class="linkCotent-solution-footer linkCotent-solution-footer-left">
+								<div class="get-user-needs-box">
+									<p style="">没有你所在的行业？</p>
+									<p>
+										把你的需求 
+										<span id="get-user-needs" class="inline pointer text-blue text-xs get-user-needs get-user-needs-news vermidd">
+											<span class="vermidd">告诉麒麟</span>
+											<img src="qlqrcode_files/static/images/index/jiantou-right@3x_d99ee34.png" alt="" class="jiantou-light vermidd"/>
+											<img src="qlqrcode_files/static/images/index/jiantou-right-dark@3x_5399ff1.png" alt="" class="jiantou-dark vermidd solution-none">
+										</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="linkCotent-right-box col-md-8">
+							<h3 class="solution-title-new">应用场景</h3>
+							<section class="linkCotent-solution-section">
+								<a target="_blank" href="//console.cli.im/nedit?create_from=47" class="knowMore pointer" onclick="StatisticsData(116, 23)" style="margin-top: 0px;">
+									<h3 class="title">信息展示</h3>
+									<p class="desc">使用活码编辑器制作图文、多媒体内容，扫码即可查看</p>
+								</a>
+								<a target="_blank" href="//cli.im/record?click_from=hover" class="knowMore pointer" onclick="StatisticsData(116, 24)">
+									<h3 class="title">信息收集</h3>
+									<p class="desc">通过记录表单，轻松高效收集业务数据，扫码即可填写</p>
+								</a>
+								<a target="_blank" href="//cli.im/solution/electricity?click_from=hover" class="knowMore pointer" onclick="StatisticsData(116, 25)">
+									<h3 class="title">设备巡检</h3>
+									<p class="desc">收集现场巡检记录，掌握设备状态，提高巡检效率</p>
+								</a>
+								<a target="_blank" href="//cli.im/batch?click_from=hover" class="knowMore pointer" onclick="StatisticsData(116, 26)">
+									<h3 class="title">批量管理</h3>
+									<p class="desc">为物品、人员等批量制作二维码标识，实时查看和添加管理记录</p>
+								</a>
+							</section>
+							<div class="linkCotent-solution-footer linkCotent-solution-footer-right">
+								<div class="get-user-needs-box pointer" style="line-height: 20px;">
+									<a target="_blank" href="//cli.im/solution/index?click_from=hover" class="text-blue moreIndustry" onclick="StatisticsData(116, 27)">查看具体应用</a>
+									<img src="qlqrcode_files/static/images/index/jiantou-right@3x_d99ee34.png" alt="" class="jiantou-light vermidd"/>
+									<img src="qlqrcode_files/static/images/index/jiantou-right-dark@3x_5399ff1.png" alt="" class="jiantou-dark vermidd solution-none">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+					-->
+				<div id="modal-alert-solution-box" class="modal fade modal-alert-solution-box" data-backdrop="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" id="comment-close-button" class="close" data-dismiss="modal">
+									<span aria-hidden="true">×</span>
+									<span class="sr-only">Close</span>
+								</button>
+								<h4 class="modal-title"></h4>
+							</div>
+							<div class="modal-body text-center">
+								<h3 class="solution-choose-title">请填写你所在的行业和业务场景</h3>
+								<p class="solution-choose-desc">以便了解你的需求，尽快为你提供专业方案</p>
+								<div class="step-item text-left">
+									<div class="step-title col-md-4">
+										1、选择你的行业
+									</div>
+									<div class="col-md-8">
+										<div class="radio col-md-6" style="margin-top: -4px;">
+											<label>
+												<input type="radio" name="solutionType" id="solution-type-1" value="1">
+												<span class="inline" style="margin-left:8px;">教育行业</span>
+											</label>
+										</div>
+										<div class="radio col-md-6">
+											<label>
+												<input type="radio" name="solutionType" id="solution-type-2" value="2">
+												<span class="inline" style="margin-left:8px;">互联网</span>
+											</label>
+										</div>
+										<div class="radio col-md-6">
+										<label>
+											<input type="radio" name="solutionType" id="solution-type-3" value="3">
+											<span class="inline" style="margin-left:8px;">旅游行业</span>
+										</label>
+										</div>
+										<div class="radio col-md-6">
+											<label>
+												<input type="radio" name="solutionType" id="solution-type-4" value="4">
+												<span class="inline" style="margin-left:8px;">生产/制造</span>
+											</label>
+										</div>
+										<div class="radio col-md-6">
+											<label>
+												<input type="radio" name="solutionType" id="solution-type-5" value="5">
+												<span class="inline" style="margin-left:8px;">广告/媒体</span>
+											</label>
+										</div>
+										<div class="radio col-md-6">
+											<label>
+												<input type="radio" name="solutionType" id="solution-type-6" value="6">
+												<span class="inline" style="margin-left:8px;">事业单位/政府部门</span>
+											</label>
+										</div>
+										<div class="radio col-md-6">
+											<label>
+												<input type="radio" name="solutionType" id="solution-type-7" value="7">
+												<span class="inline" style="margin-left:8px;">贸易/批发/零售</span>
+											</label>
+										</div>
+										<div class="radio col-md-6">
+											<label>
+												<input type="radio" name="solutionType" id="solution-type-8" value="8">
+												<span class="inline" style="margin-left:8px;">餐饮/娱乐/生活服务</span>
+											</label>
+										</div>
+										<div class="radio col-md-6" style="position: relative;">
+											<label>
+												<input type="radio" name="solutionType" id="solution-type-9" value="9">
+												<span class="inline" style="margin-left:8px;">其他</span>
+											</label>
+											<input type="text" placeholder="请输入你所在的行业" value="" id="other-input" class="other-input solution-none" />
+										</div>
+									</div>
+								</div>
+								<div class="step-item text-left" >
+									<div class="step-title step-title-new">
+										2、想用二维码解决什么问题？（选填）
+									</div>
+									<input type="text" name="optionsRadios" id="use-scene" class="use-scene" placeholder="请填写二维码应用场景">
+								</div>
+							</div>
+							<div class="modal-footer text-center" style="border-top: none;">
+								<button class="btn btn-outline b-green text-green publish-solution-cancel-btn" id="publish-solution-cancel-btn" data-dismiss="modal">取消</button>
+								<button class="btn green publish-solution-submit-btn" id="publish-solution-submit-btn" data-loading-text="提交中...">确定</button>
+								<div id="error-message-solution" class="error-message"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="modal-alert-solution-success-box" class="modal fade modal-alert-solution-success-box" data-backdrop="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header"></div>
+							<div class="modal-body p-x-md text-center" style="">
+								<div class="img-box" style="">
+									<img src="qlqrcode_files/images/2019/04/success_tpl_save.png" alt="" />
+								</div>
+								<div class="content-info text-left inline" style="vertical-align: middle;">
+									<p class="solution-choose-desc">提交成功！非常感谢你提交的信息</p>
+								</div>
+							</div>
+							<div class="modal-footer text-center" style="">
+								<button class="btn green publish-solution-success-btn" id="publish-solution-success-btn" data-dismiss="modal">确定</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			<script>
+				$(function(){
+					$(document).on('click', '#get-user-needs', function(e){
+						StatisticsData(115, 14);
+						$('#modal-alert-solution-box').modal('show');
+					})
+			
+					$('input[type=radio][name="solutionType"]').off().change(function() {
+						if (this.value == 9) {
+							$('#other-input').removeClass('solution-none').show();
+						}
+					});
+			
+					$(document).on('click', '#publish-solution-cancel-btn', function() {
+						StatisticsData(115,12);
+					})
+			
+					$(document).on('click', '#publish-solution-success-btn', function() {
+						StatisticsData(115,17);
+					})
+			
+					$(document).on('hide.bs.modal', '#modal-alert-solution-box', function () {
+						StatisticsData(115,13);
+					});
+			
+					$(document).on('click', '#publish-solution-submit-btn', function () {
+						StatisticsData(115,15);
+						var solution_value = $('input[type=radio][name="solutionType"]:checked').val();
+						var use_scene_input = $('#use-scene').val();
+			
+						if (!solution_value) {
+							showError('请添加你的行业');
+							return false;
+						}
+			
+						if (solution_value == 9) {
+							var other_input = $('#other-input').val();
+						   
+			
+							if (!other_input) {
+								showError('请输入应用场景');
+								return false;
+							}
+			
+							save_solution_template(9, other_input, use_scene_input);
+			
+							return;
+						}
+			
+						save_solution_template(solution_value, '', use_scene_input);
+					})
+			
+					function getCookie(name) {
+						var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+						if (arr != null) {
+							return (arr[2]);
+						}
+					}
+			
+					function save_solution_template(solution_type, other_info, user_scene) {
+						$('#publish-solution-submit-btn').button('loading');
+			
+						var _cvid = getCookie('cvid');
+			
+						$.ajax({
+							type: 'GET',
+							url: '//' + CLI_DOMAIN + '/Api/LogIndustry/log',
+							async: true,
+							data: {
+								'industry_id': solution_type,
+								'industry_need': other_info,
+								'industry_solve': user_scene,
+								'cvid': _cvid,
+							},
+							dataType: 'json',
+							success: function(ret) {
+								if (ret.status) {
+									$('#publish-solution-submit-btn').button('reset');
+									$('#modal-alert-solution-box').modal('hide');
+									$('#modal-alert-solution-success-box').modal('show');
+									StatisticsData(115, 16);
+								}
+							},
+							error: function(e) {
+							}
+						});
+					}
+			
+				})
+			
+				function showError(msg) {
+					$('#error-message-solution')
+					.text(msg)
+					.css('display', 'inline-block')
+					.delay(2000)
+					.fadeOut();
+				}
+			
+				function StatisticsData(fir,sec){
+					$.ajax({
+						async: true,
+						type: "get",
+						url: '/Api/ClickLog/click',
+						data: {
+							'fir': fir,
+							'sec': sec
+						},
+						dataType: 'jsonp',
+						jsonp: 'callback',
+						success: function(ret) {
+						}
+					});
+				}
+			</script>
+			</li>
+			<li>
+				<a href="price.htm" class="menu-hd" id="top-nav-price" target="_blank" onclick="StatisticsData(120, 122)">价格</a>
+			</li>
+			<!--
+			<li>
+				<a href="//cli.im/help/48446" class="menu-hd" id="top-nav-help" target="_blank" onclick="StatisticsData(120, 24)">帮助文档</a>
+			</li>
+			-->
+		</ul>
+	</div>
+</div>
+<div class="clearfix"></div>
+<input type="hidden" id="STATICURL" value="//static.clewm.net/cli">
+<script>
+  $('.top-menu-solution').mouseenter(function() {
+    StatisticsData(115, 1);
+  });
+  //数据统计
+  function StatisticsData(fir,sec){
+    $.ajax({
+      async: true,
+      type: "get",
+      url: '/Api/ClickLog/click',
+      data: {
+          'fir': fir,
+          'sec': sec
+      },
+      dataType: 'jsonp',
+      jsonp: 'callback',
+      success: function(ret) {
+      }
+    });
+  }
+</script>
+<link rel="stylesheet" href="qlqrcode_files/static/css/page-solution_common_new_e72fd89.css">
+<link rel="stylesheet" href="qlqrcode_files/static/css/page-good_0f9deea.css">
+<div id="page-building" class="page-building">
+	<div>
+		<div class="case-detail-content">
+			<div class="mobile-logo mobile-logo-show">
+				<a href="//cli.im" class="logo"></a>
+			</div>
+		</div>
+		<div class="w-p100 white goods-wrapper" style="padding: 80px 0 0;"><div class="w-1000 row text-center goods-box">
+			<h1 class="goods-box-title">
+				多用户模板化
+				<span style="font-size: 18px;display: block;line-height: 18px;margin-top: 16px;">二维码应用方案</span>
+			</h1>
+			<p class="goods-box-text">帮助各种规模企业用户在招商、推广、服务等各环节，应用二维码迅速解决信息分享问题</p>
+			<div class="goods-service-content">
+				<a class="btn btn-outline green b-green m-r-md use-quickly" href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/login" target="_blank" statisticanalyze sec-data="10">免费使用</a>
+				<a class="btn btn-outline b-green text-green know-price" href="price.htm" target="_blank" statisticanalyze sec-data="8">查看价格</a>
+			</div>
+		</div>
+	</div>
+	<div class="w-p100 white notechUse" style="padding: 104px 0 0px;">
+		<div class="w-1000 row text-center goods-scene-box">
+			<h3 class="goods-scene-title">
+				零技术投入，像使用
+				<span style="font-family: Arial,'Times New Roman','Microsoft YaHei',SimHei;">Office</span>
+				一样，即刻制作二维码
+			</h3>
+			<div class="goods-case-box">
+				<ul class="good-case-ul">
+					<li class="col-md-4 good-scene-item">
+						<a href="detail.htm?id=1381" target="_blank" class="good-scene-item-href" statisticanalyze sec-data="21">
+							<div class="img-box img-pic-one"></div>
+							<div class="goods-info-box">
+								<h3 class="goods-item-title">商品展示二维码</h3>
+								<p class="goods-item-desc">消费者扫码查询商品统一标价</br>充分利用包装版面，传递品牌价值</p>
+								<div class="goods-item-link-box">
+									<div class="pointer goods-user-scene inline">
+										<p class="inline text-blue get-user-needs text-xs vermidd">应用教程</p>
+										<img src="qlqrcode_files/static/images/index/jiantou-right@3x_d99ee34.png" alt="" class="jiantou-light none"/>
+										<img src="qlqrcode_files/static/images/index/jiantou-right-dark@3x_5399ff1.png" alt="" class="jiantou-dark none">
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="col-md-4 good-scene-item" style="margin-left: 20px;">
+						<a href="detail.htm?id=1380" target="_blank" class="good-scene-item-href" statisticanalyze sec-data="22">
+							<div class="img-box img-pic-two"></div>
+							<div class="goods-info-box">
+								<h3 class="goods-item-title">多媒体资料二维码</h3>
+								<p class="goods-item-desc">扫码即可快速共享招商推广资料</br>制作便利，内容可随时更新</p>
+								<div class="goods-item-link-box">
+									<div class="pointer goods-user-scene inline">
+										<p class="inline text-blue get-user-needs text-xs vermidd">应用教程</p>
+										<img src="qlqrcode_files/static/images/index/jiantou-right@3x_d99ee34.png" alt="" class="jiantou-light none"/>
+										<img src="qlqrcode_files/static/images/index/jiantou-right-dark@3x_5399ff1.png" alt="" class="jiantou-dark none">
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="col-md-4 good-scene-item" style="margin-top: 64px;">
+						<a href="detail.htm?id=1371" class="good-scene-item-href" target="_blank" class="goods-item-link-box" statisticanalyze sec-data="23">
+							<div class="img-box img-pic-three"></div>
+							<div class="goods-info-box">
+								<h3 class="goods-item-title">产品说明书二维码</h3>
+								<p class="goods-item-desc">消费者保存便利，扫码阅读体验好</br>代替纸质说明书，节约物料成本</p>
+								<div class="goods-item-link-box">
+									<div class="pointer goods-user-scene inline">
+										<p class="inline text-blue get-user-needs text-xs vermidd">应用教程</p>
+										<img src="qlqrcode_files/static/images/index/jiantou-right@3x_d99ee34.png" alt="" class="jiantou-light none"/>
+										<img src="qlqrcode_files/static/images/index/jiantou-right-dark@3x_5399ff1.png" alt="" class="jiantou-dark none">
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="col-md-4 good-scene-item" style="margin-left: 20px;margin-top: 64px;">
+						<a href="detail.htm?id=1372" class="good-scene-item-href" target="_blank" statisticanalyze sec-data="24">
+							<div class="img-box img-pic-four"></div>
+							<div class="goods-info-box">
+								<h3 class="goods-item-title">建筑施工二维码</h3>
+								<p class="goods-item-desc">查看样品信息和报价，快速选款订货</br>多媒体展示实际使用效果，促进销量</p>
+								<div class="goods-item-link-box">
+									<div class="pointer goods-user-scene inline">
+										<p class="inline text-blue get-user-needs text-xs vermidd">应用教程</p>
+										<img src="qlqrcode_files/static/images/index/jiantou-right@3x_d99ee34.png" alt="" class="jiantou-light none"/>
+										<img src="qlqrcode_files/static/images/index/jiantou-right-dark@3x_5399ff1.png" alt="" class="jiantou-dark none">
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					<!--
+					<li class="col-md-4 good-scene-item" style="margin-top: 64px;">
+						<a href="https://cli.im/case/detail/1090" class="good-scene-item-href" target="_blank" statisticanalyze sec-data="25">
+							<div class="img-box img-pic-five"></div>
+							<div class="goods-info-box">
+								<h3 class="goods-item-title">售后服务二维码</h3>
+								<p class="goods-item-desc">无需APP，微信扫码即刻保存服务记录</br>提升服务质量和信息沟通效率</p>
+								<div class="goods-item-link-box">
+									<div class="pointer goods-user-scene inline">
+										<p class="inline text-blue get-user-needs text-xs vermidd">应用教程</p>
+										<img src="qlqrcode_files/static/images/index/jiantou-right@3x_d99ee34.png" alt="" class="jiantou-light none"/>
+										<img src="qlqrcode_files/static/images/index/jiantou-right-dark@3x_5399ff1.png" alt="" class="jiantou-dark none">
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					-->
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="w-p100 white" style="padding: 48px 0;">
+		<div class="w-1000 row text-center">
+			<a class="other-scene-box" href="//cli.im/case" target="_blank" statisticanalyze sec-data="26">
+				<button class="btn green b-green hello-btn">Hello</button>
+				除了这些还想知道别的应用场景？
+				<div class="view-more-scene" style="display: inline-block;">
+					<p class="inline text-blue">查看更多应用教程</p>
+					<img src="qlqrcode_files/static/images/index/jiantou-right@3x_d99ee34.png" alt="" class="jiantou-light"/>
+					<img src="qlqrcode_files/static/images/index/jiantou-right-dark@3x_5399ff1.png" alt="" class="jiantou-dark none">
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="w-p100 white business-info-bg" style="padding: 100px 0;height: 340px;">
+		<div class="w-1000 row text-center business-info-box">
+			<div class="business-info-title">二维码让业务信息流动更快</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="business-info-item">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/Consumer@2x_5ce276e.png" alt="" />
+						</div>
+						<p class="business-info-item-item-title">让 <span style="font-weight:bold;">消费者</span> 随时随地了解商品</p>
+						<p class="business-info-item-item-desc">利用商品包装的有限版面，</p>
+						<p class="business-info-item-item-desc">向消费者展示营销和帮助信息，</p>
+						<p class="business-info-item-item-desc">不放过每一次价值传递的机会。</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="business-info-item">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/partner@2x_ae40096.png" alt="" />
+						</div>
+						<p class="business-info-item-item-title">向 <span style="font-weight:bold;">商业伙伴</span> 迅速传递电子资料</p>
+						<p class="business-info-item-item-desc">无论招商、展会现场，还是线上业务接洽，</p>
+						<p class="business-info-item-item-desc">向客商快速传递商业资料，</p>
+						<p class="business-info-item-item-desc">体现你的效率和诚意。</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="business-info-item">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/file@2x_ea21e1a.png" alt="" />
+						</div>
+						<p class="business-info-item-item-title">为产品建立 <span style="font-weight:bold;">动态档案</span></p>
+						<p class="business-info-item-item-desc">即时存储和读取产品信息，</p>
+						<p class="business-info-item-item-desc">把碎片数据汇聚成</p>
+						<p class="business-info-item-item-desc">有价值的产品履历和信息资产。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w-p100 white advanced-feature-wrapper" style="padding: 48px 0;padding-top: 238px;">
+		<div class="w-1000 row text-center advanced-feature-box">
+			<div class="advanced-feature-title">众多高级功能和服务，满足企业用户深度应用</div>
+			<div class="row">
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/circle-remove@2x_289f118.png" alt="" />
+						</div>
+						<p class="advanced-feature-item-title">去除麒麟标识 </p>
+						<p class="advanced-feature-item-desc">提升用户浏览体验，扫码界面纯净无广告</p>
+					</div>
+				</div>
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/cunchuqia@2x_aa9fb3a.png" alt="" />
+						</div>
+						<p class="advanced-feature-item-title">海量账号存储容量 </p>
+						<p class="advanced-feature-item-desc">向二维码中上传图片和文件素材，展示效果更佳</p>
+					</div>
+				</div>
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item border-right-none">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/bofang-4@2x_b09da60.png" alt="" />
+						</div>
+						<p class="advanced-feature-item-title">音视频高清播放 </p>
+						<p class="advanced-feature-item-desc">支持多档清晰度切换，保证二维码中音视频播放体验</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/biaodanwancheng@2x_49e8042.png" alt="" style="width: 26px;" />
+						</div>
+						<p class="advanced-feature-item-title">表单记录功能</p>
+						<p class="advanced-feature-item-desc">用二维码记录单代替纸质表单进行记录协作</p>
+					</div>
+				</div>
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/batch-code@2x_f22ce4e.png" alt="" />
+						</div>
+						<p class="advanced-feature-item-title">批量生码</p>
+						<p class="advanced-feature-item-desc">一次性生成格式相同的二维码，提升二维码制作效率</p>
+					</div>
+				</div>
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item border-right-none">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/tianxieribao@2x_3df2416.png" alt="" style="width: 21px;" />
+						</div>
+						<p class="advanced-feature-item-title">空码赋值 </p>
+						<p class="advanced-feature-item-desc">先贴码后扫码填充内容，业务现场即刻用码</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/wiappfangwenliang@2x_f44741f.png" alt="" />
+						</div>
+						<p class="advanced-feature-item-title">二维码访问设置</p>
+						<p class="advanced-feature-item-desc">按需设置二维码有效期、查看权限和手机应用打开方式</p>
+					</div>
+				</div>
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/Shapecopy@2x_40830ec.png" alt="" style="width: 20px;height: 24px;"  />
+						</div>
+						<p class="advanced-feature-item-title">快捷标签排版 </p>
+						<p class="advanced-feature-item-desc">使用A4纸和普通打印机快速制作二维码标签</p>
+					</div>
+				</div>
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item border-right-none">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/pinpai-2@2x_be92468.png" alt="" />
+						</div>
+						<p class="advanced-feature-item-title">企业主页和品牌VI </p>
+						<p class="advanced-feature-item-desc">露出企业品牌信息，每一次扫码均伴随品牌视觉宣传</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item border-bottom-none">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/saomiaoliang@2x_471ec17.png" alt="" />
+						</div>
+						<p class="advanced-feature-item-title">扫码量统计 </p>
+						<p class="advanced-feature-item-desc">实时统计二维码扫描次数，观测渠道投放效果</p>
+					</div>
+				</div>
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item border-bottom-none">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/gongzhonghaoguanli@2x_b745478.png" alt="" style="width: 28px;" />
+						</div>
+						<p class="advanced-feature-item-title">公众号引流 </p>
+						<p class="advanced-feature-item-desc">开通专属小程序后，可实现在扫码界面一键关注公众号</p>
+					</div>
+				</div>
+				<div class="col-md-4" style="padding:0px;">
+					<div class="advanced-feature-item border-bottom-none border-right-none">
+						<div class="img-box">
+							<img src="qlqrcode_files/static/images/goods/after-sales-service@2x_a5d73d5.png" alt="" style="width: 26px;"  />
+						</div>
+						<p class="advanced-feature-item-title">专业售后服务</p>
+						<p class="advanced-feature-item-desc">为二维码落地应用提供专业技术支持和服务</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w-p100 white" style="padding: 72px 0px;">
+		<div class="w-1000 row p-b-md text-center contact-wrapper logo-demo-v3">
+			<h2 class="scene-title" style="font-size: 24px;margin-bottom: 44px;font-weight: bold;">他们都在使用麒麟二维码</h2>
+			<img src="qlqrcode_files/static/images/goods/company_goods@2x_e0473ab.png" width="1000" height="148" alt="" />
+		</div>
+	</div>
+	<div class="w-p100 p-y-lg light footer-to-price">
+		<div class="w-1000 row text-center use-cliao-user-box">
+			<h3 class="use-cliao-user-title">免费就可使用，付费获取更大使用量及专享服务</h3>
+			<div class="use-cliao-user-btn">
+				<a class="btn white m-r-md use-quickly" href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/login" target="_blank" statisticanalyze sec-data="27">免费使用</a>
+				<a class="btn btn-outline know-price" href="price.htm" target="_blank" statisticanalyze sec-data="28">查看价格</a>
+			</div>
+		</div>
+	</div>
+	<input class="industry" type="hidden" value="2"><input id="case" type="hidden" value="1">
+	<script>
+      var oldIE;
+      if ($('html').is('.lt-ie9')) {
+          oldIE = true;
+      };
+      var url_now = window.location.href;
+      //播放视频
+      $('[data-one-min-video]').click(function() {
+          if (oldIE) {
+              alert('当前浏览器不支持播放视频，请更换浏览器')
+          } else {
+              switch ($(this).data('type')) {
+                case 'intro': {
+                  if ($('#solution-header-video-content source').length == 0) {
+                      var source = '<source src="//qiniu-nc.clewm.net/399798dbb6d9b0abe235b61194812420.mp4" type="video/mp4">';
+                      $('#solution-header-video-content').append(source);
+                  } else {
+                    $('#solution-header-video-content').html('<source src="//qiniu-nc.clewm.net/399798dbb6d9b0abe235b61194812420.mp4" type="video/mp4">')
+                  }
+                  break;
+                }
+                case 'video1': {
+                  if ($('#solution-header-video-content source').length == 0) {
+                      var source = '<source src="//tcv-nc.clewm.net/1erweimajianma.mp4" type="video/mp4">';
+                      $('#solution-header-video-content').append(source);
+                  } else {
+                      $('#solution-header-video-content').html('<source src="//tcv-nc.clewm.net/1erweimajianma.mp4" type="video/mp4">')
+                  }
+                  break;
+                }
+                case 'video2': {
+                  if ($('#solution-header-video-content source').length == 0) {
+                      var source = '<source src="//blogcdnimg.clewm.net/2017/12/%E5%BE%AE%E4%BF%A1%E6%89%AB%E7%A0%81%E6%B7%BB%E5%8A%A0%E8%AE%B0%E5%BD%95.mp4?_=1" type="video/mp4">';
+                      $('#solution-header-video-content').append(source);
+                  } else {
+                      $('#solution-header-video-content').html('<source src="//blogcdnimg.clewm.net/2017/12/%E5%BE%AE%E4%BF%A1%E6%89%AB%E7%A0%81%E6%B7%BB%E5%8A%A0%E8%AE%B0%E5%BD%95.mp4?_=1" type="video/mp4">')
+                  }
+                  break;
+                }
+                default:
+                  break;
+              }
+              $('#solution-header-modal-video').modal('show');
+          };
+      });
+
+      $(document).on('click', '[video-service-item]', function() {
+        var video_item_name = $(this).attr('video-name');
+
+        if (oldIE) {
+          alert('当前浏览器不支持播放视频，请更换浏览器')
+        } else {
+          if ($('#solution-header-video-content').length == 0) {
+            $('#solution-header-modal-video .modal-dialog').append('<video id="solution-header-video-content" height="562" width="1000" controls="controls"></video>');   
+            if ($('#solution-header-modal-video source').length == 0) {
+                var source = '<source src='+ video_item_name +' type="video/mp4">';
+                $('#solution-header-video-content').append(source);
+            } else {
+                $('#solution-header-video-content').html('<source src='+ video_item_name +' type="video/mp4">')
+            }
+          } else {
+            if ($('#solution-header-modal-video source').length == 0) {
+                var source = '<source src='+ video_item_name +' type="video/mp4">';
+                $('#solution-header-video-content').append(source);
+            } else {
+                $('#solution-header-video-content').html('<source src='+ video_item_name +' type="video/mp4">')
+            }
+          }
+          $('#solution-header-modal-video').modal('show');
+        };
+      })
+
+      $('#solution-header-modal-video').on('shown.bs.modal', function() {
+          var myVideo = document.getElementById("solution-header-video-content");
+          $('#solution-header-video-content')[0].load();
+          myVideo.play();
+      });
+      $('#solution-header-modal-video').on('hidden.bs.modal', function() {
+          var myVideo = document.getElementById("solution-header-video-content");
+          $('#solution-header-video-content').empty();
+          myVideo.currentTime = 0;
+          myVideo.pause();
+          $('#solution-header-video-content').remove();
+      });
+      $('[tmp-data]').click(function(){
+          var _this = $(this);
+          _this.addClass('active').siblings().removeClass('active');
+          $(".tpl-content-children").hide();
+          $("#tpl-content-"+_this.attr("tmp-data")).show();
+      });
+
+      $("[scene-gif]").click(function(){
+          var _this = $(this);
+          var currentNum = _this.attr('scene-gif');
+          $("#solution-header-modal-gif").modal('show');
+          $(".gif-content img").hide();
+          $("#gif-content-img-"+_this.attr("scene-gif")).attr('src','');
+          $("#gif-content-img-"+_this.attr("scene-gif")).attr('src','http://blogcdnimg.clewm.net/2018/03/building-fjw-20180320-gif' + currentNum + '.gif');
+          $("#gif-content-img-"+ currentNum).show();
+      });
+      $(document).on('click', '#page-building [statisticAnalyze]', function(event) {
+          var secData = $(this).attr('sec-data');
+          StatisticsData(112,secData);
+      });
+
+      
+      $('.building-img, .building-img-new').mouseover(function() {
+          $(this).addClass($(this).attr('hover-class'));
+      });
+
+      $('.building-img, .building-img-new').mouseout(function() {
+          $(this).removeClass($(this).attr('hover-class'));
+      });
+
+      function CopyCaseV2(btn_id, scene_id){
+          var newWin = window.open('about:blank');
+          newWin.document.write('请等待');
+          $.ajax({
+              type: "GET",
+              url: '/apis/QrcodeCase/copyV2',
+              data: {
+                  btn_id: btn_id,
+                  scene_id: scene_id,
+                  preview: 0
+              },
+              dataType: "json",
+              success: function(ret) {
+                  if (ret.status == 1) {
+                      var url = ret.data.edit_link;
+                      newWin.location.href = url;
+                  }else {
+                      alert(ret.info,'danger');
+                  }
+              }
+          });
+      }
+
+      function jumpNcBuild() {
+          if(url_now.indexOf('cli.me') > 0 || url_now.indexOf('cliim.net') > 0) {
+              CopyCaseV2('1678','792');
+          } else if (url_now.indexOf('cliim.com') > 0 || url_now.indexOf('cli.im') > 0) {
+              CopyCaseV2('2020','909');
+          }
+      }
+
+      $(document).on('click', '[price-free-use]', function(){
+        jumpNcBuild();
+      })
+
+      //数据统计
+      function StatisticsData(fir,sec){
+          $.ajax({
+              async: true,
+              type: "get",
+              url: '/Api/ClickLog/click',
+              data: {
+                  'fir': fir,
+                  'sec': sec
+              },
+              dataType: 'jsonp',
+              jsonp: 'callback',
+              success: function(ret) {
+              }
+          });
+      }
+  </script><div class="scene_tip">
+<script type="text/javascript" src="qlqrcode_files/cli/js/qqserver_clicklog-jq1.9.1.js"></script>
+<!--
+<link rel="stylesheet" href="qlqrcode_files/static/css/cli_footer_new_7148ff6.css">
+-->
+<link rel="stylesheet" href="qlqrcode_files/cli_footer_new_7148ff6.css">
+<div class="cli_foot">
+   <div class="footer-tool-box">
+	  <ul class="W1000 global-not-select footer-tool-item-ul">
+		<li class="footer-tool-item icon-forever">
+			长期有效
+		</li>
+		<li class="footer-tool-item icon-safe">
+			数据安全
+		</li>
+		<li class="footer-tool-item icon-privacy">
+			隐私保护
+		</li>
+		<li class="footer-tool-item icon-available">
+			高可用性
+		</li>
+	   </ul>
+   </div>
+	<div class="footer-category-box">
+		<div class="foot-box W1000 global-not-select">
+			<div class="footer-info-item">
+				<div class="title">电话：0532-55588351</div>
+			</div>
+			<div class="footer-info-item">
+				<div class="title">传真：0532-55588352</div>
+			</div>
+			<div class="footer-info-item" style="width:200px;">
+				<div class="title">邮箱：qdhualing@126.com</div>
+			</div>
+			<div class="footer-info-item">
+				<div class="title">商话1：15712773653</div>
+			</div>
+			<div class="footer-info-item">
+				<div class="title">商话2：15315019919</div>
+			</div>
+			<div class="footer-info-item" style="width:350px;">
+				<div class="title">地址：山东省黄岛区双珠路288号东方金石大厦8F </div>
+			</div>
+		</div>
+		<div class="copyright W1000">
+			<div class="copyright-inner"><div>
+				<a href="http://www.qdhualing.com" target="_blank">青岛华凌科技有限公司</a>&nbsp;&nbsp;
+				<div class="copyright-box">
+					<span class="record-case" style="">鲁ICP备15031378号</span>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement('script');
+                    hm.src = '//hm.baidu.com/hm.js?cb508e5fef81367bfa47f4ec313bf68c';        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(hm, s);
+        var getCookie = function (name) {
+          var arr = document.cookie.match(new RegExp('(^| )' + name + '=([^;]*)(;|$)'));
+          if (arr == null) {
+            return '';
+          }
+          return unescape(arr[2]);
+        };
+        var cvid = getCookie('cvid');
+        if (!cvid) {
+          var domain = location.hostname.split('.').slice(-2).join('.');
+          hm = document.createElement('script');
+          hm.src = '//user.' + domain + '/api/visitor_analysis/get_cvid';
+          s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(hm, s);
+        }
+      })();
+</script>
+</div>
+<script>
+    $(function(){
+        $('.cli_foot .qq_show').hover(function(e) {
+            $('ul.qq_list').toggle();
+            e.stopPropagation();
+        });
+
+        $('[data-toggle="popover"]')
+            .popover({
+              trigger: 'manual',
+              animation: false,
+            })
+            .on('mouseenter', function () {
+                var _this = this;
+                $('.popover').remove();
+                $(this).popover('show');
+                $('.popover').find('.arrow').addClass('beforeNone');
+                $('.popover').on('mouseleave', function () {
+                    $(_this).popover('hide');
+                });
+            }).on('mouseleave', function () {
+                var _this = this;
+                setTimeout(function () {
+                    if (!$('.popover:hover').length) {
+                        $(_this).popover('hide');
+                    }
+                }, 100);
+            });
+
+              //数据统计
+        function StatisticsData(fir,sec){
+            $.ajax({
+                async: true,
+                type: "get",
+                url: '/Api/ClickLog/click',
+                data: {
+                    'fir': fir,
+                    'sec': sec
+                },
+                dataType: 'jsonp',
+                jsonp: 'callback',
+                success: function(ret) {
+                }
+            });
+        }
+    })
+</script><script>
+(function() {
+    function getCookie(c_name){
+        if (document.cookie.length>0) {
+            c_start=document.cookie.indexOf(c_name + "=")
+            if (c_start!=-1) {
+                c_start=c_start + c_name.length+1
+                c_end=document.cookie.indexOf(";",c_start)
+                if (c_end==-1)
+                c_end=document.cookie.length
+                return unescape(document.cookie.substring(c_start,c_end))
+            }
+        }
+        return ""
+    }
+    var managerCookie = getCookie('climanager_v2');
+    if (managerCookie) {
+        var info = JSON.parse(unescape(getCookie('climanager_v2')))
+
+        if (info.manager_id == '18' || info.manager_id == '19' || info.manager_id == '20') {
+            $('.foot-open-qq-btn').attr('href', info.contact_link);
+            $('.foot-open-qq-btn').attr('target', '_blank');
+        }
+    }
+    $('.foot-open-qq-btn').on('click', function() {
+        StatisticsData(88,2);
+
+        $.ajax({
+            type: 'POST',
+            url: '//' + USER_DOMAIN + '/api/ask/addAsk',
+            xhrFields: {
+                withCredentials: true
+            }
+        });
+    })
+})();
+</script>
+</body>
+</html>
+<script src="qlqrcode_files/public/cli_analytics.js"></script></div><div class="scene_mobile_footer"><p>?2011-2019 Cli.im 宁波邻家网络科技有限公司<br>浙ICP备12002384号-4</p></div>
