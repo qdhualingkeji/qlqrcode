@@ -109,7 +109,9 @@ var CLI_DOMAIN='cli.im',
 -->
 <div class="cli_head scene_mobile">
 	<div class="cli_head_inner cli_head_container">
-		<img src="qlqrcode_files/images/cli_logo.png" style="width:300px;height:54px; margin-top:5px;"/>
+		<a href="qlqrcode.htm">
+			<img src="qlqrcode_files/images/cli_logo.png" style="width:300px;height:54px; margin-top:5px;"/>
+		</a>
 		<div class="logpart pull-right">
 			<div id="myqr_out" style="display: none">
 				<div class="cli-normal-main pointer">

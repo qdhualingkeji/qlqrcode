@@ -419,7 +419,7 @@ $(function(){
 		var tpl = scrollTpl('qlqrcode_files/images/2019/06/WechatIMG2.jpeg', 'qlqrcode_files/images/2019/06/宜家家居产品画册.png');
 		$('#scene5').append(tpl);
 		
-		ctiuHtml+="<li class=\"create-tpl-item Margin16\" go-preview=\"\" is_preview=\"0\" scene_id=\"1380\" code-click-data=\"61\" data-id=\"3192\" data-type=\"1\" data-long=\"qlqrcode_files/images/rsrc/scene/13ff7f8255b29033a296198cb065d1031562318953.png\">";
+		ctiuHtml+="<li class=\"create-tpl-item Margin16\" go-preview=\"\" is_preview=\"0\" scene_id=\"1380\" code-click-data=\"61\" data-id=\"3192\" data-type=\"1\" data-long=\"qlqrcode_files/images/rsrc/scene/c69e92aad2d2a0d541ff9e36c6bcbfaf1547088833.png\">";
 			ctiuHtml+="<h4 class=\"item-name\">";
 				ctiuHtml+="多媒体资料";
 				ctiuHtml+="<i class=\"fa fa-angle-right\"></i>";
@@ -756,7 +756,7 @@ $(function(){
 	    var tpl = scrollTpl('qlqrcode_files/images/2019/06/窗帘二维码效果.jpg', 'qlqrcode_files/images/2019/06/窗帘二维码.png');
 	    $('#scene4').append(tpl);
 	  	
-		ctiuHtml+="<li class=\"create-tpl-item Margin16\" go-preview=\"\" is_preview=\"0\" scene_id=\"1372\" code-click-data=\"61\" data-id=\"3195\" data-type=\"1\" data-long=\"qlqrcode_files/images/rsrc/scene/36e949c90fe1411be106551df3bbf48d1562499327.png\">";
+		ctiuHtml+="<li class=\"create-tpl-item Margin16\" go-preview=\"\" is_preview=\"0\" scene_id=\"1372\" code-click-data=\"61\" data-id=\"3195\" data-type=\"1\" data-long=\"qlqrcode_files/images/rsrc/scene/2b541c82ef7e535cf2f0a2c370dfa36c1547083765.png\">";
 			ctiuHtml+="<h4 class=\"item-name\">";
 				ctiuHtml+="建筑施工";
 				ctiuHtml+="<i class=\"fa fa-angle-right\"></i>";
@@ -1978,6 +1978,33 @@ var SOCKETAPISURL = 'https://socket.api.cli.im';
             $('.toQuertion').removeClass('none').css('display', 'inline-block');
         }
     })
+
+	function goAddModule(o){
+		var dataId=$(o).attr("data-id");
+		switch(dataId){
+		case "3194":
+			location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goAddModule?trade=spzs&moduleType=redWine";
+		break;
+		case "3209":
+			location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goAddModule?trade=spzs&moduleType=whiteWine";
+		break;
+		case "3210":
+			location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goAddModule?trade=spzs&moduleType=homeTextiles";
+		break;
+		case "3211":
+			location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goAddModule?trade=spzs&moduleType=artwork";
+		break;
+		case "3192":
+			location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goAddModule?trade=dmtzl";
+		break;
+		case "3190":
+			location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goAddModule?trade=spzs&moduleType=productExplain";
+		break;
+		case "3195":
+			location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goAddModule?trade=jzsg";
+		break;
+		}
+	}
 </script>
 </div>
 </div>
@@ -2028,7 +2055,7 @@ var SOCKETAPISURL = 'https://socket.api.cli.im';
   	<!--
 	<a [wrap-click-item] create-tpl-item class="preview_doc_show_use btn btn-lg green b-green" data-loading-text="正在生成...">立即使用</a>
 	-->
-	<a [wrap-click-item] class="preview_doc_show_use btn btn-lg green b-green" data-loading-text="正在生成...">立即使用</a>
+	<a [wrap-click-item] class="preview_doc_show_use btn btn-lg green b-green" data-loading-text="正在生成..." onclick="goAddModule(this);">立即使用</a>
   </div>
 </div>
 <script src="qlqrcode_files/cli/js/lib/plug/jceb.msgtip.js"></script>

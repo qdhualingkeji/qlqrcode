@@ -131,7 +131,6 @@
 	  $.ajax({
 		 url:"http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/loginQL",
 		 dataType:'jsonp',
-		 //data:{userName:userName,password:password},
 		 data:"userName="+userName+"&password="+password,
 		 processData: false, 
 		 jsonp:'callback',

@@ -260,7 +260,6 @@
 <li class="top-menu-item top-menu-solution" has-dropdown="true">
 				  <a href="solutionCommodity.htm" class="menu-hd" id="top-nav-solution" onClick="StatisticsData(120, 22)">
 					  应用案例
-					  <i class="fa fa-angle-down" style="width: 10px;"></i>
 				  </a>
 				  <link rel="stylesheet" href="qlqrcode_files/page-catalogue_df21403.css">
 				  <!--
