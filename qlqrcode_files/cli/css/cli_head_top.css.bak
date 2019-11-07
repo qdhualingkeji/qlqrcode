@@ -417,7 +417,7 @@
   color: #666;
   line-height: 64px;
   height: 64px;
-  margin-right: 80px;
+  margin-right: 70px;
 }
 
 .logpart #myqr_out, .logpart #login_join {

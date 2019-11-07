@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>麒麟二维码</title>
+<title>应用案例-麒麟二维码</title>
 <link rel="stylesheet" href="qlqrcode_files/static/css/page-index-screen_51b1169.css">
 <link rel="icon" href="qlqrcode_files/images/favicon.ico" mce_href="qlqrcode_files/images/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="qlqrcode_files/images/favicon.ico" mce_href="/static/images/favicon.ico" type="image/x-icon">
@@ -131,7 +131,7 @@ var CLI_DOMAIN='cli.im',
 			</div>
 		</div>
 		<div class="nav-divider pull-right"></div>
-		<ul class="menu pull-right">
+		<ul class="menu pull-right" style="margin-left:-200px;">
 			<li class="top-menu-item">
 				<a href="qlqrcode.htm" class="menu-hd" id="top-nav-products" onclick="StatisticsData(120, 21)">产品介绍</a>
 			</li>
@@ -465,6 +465,7 @@ var CLI_DOMAIN='cli.im',
 			</li>
 			-->
 		</ul>
+		<div style="margin-left:1100px;margin-top:-38px; position:absolute;">全国服务热线：0532-55588351&nbsp;&nbsp;&nbsp;15712773653</div>
 	</div>
 </div>
 <div class="clearfix"></div>
@@ -606,6 +607,7 @@ var CLI_DOMAIN='cli.im',
 			</div>
 		</div>
 	</div>
+	<!--
 	<div class="w-p100 white" style="padding: 48px 0;">
 		<div class="w-1000 row text-center">
 			<a class="other-scene-box" href="//cli.im/case" target="_blank" statisticanalyze sec-data="26">
@@ -619,6 +621,7 @@ var CLI_DOMAIN='cli.im',
 			</a>
 		</div>
 	</div>
+	-->
 	<div class="w-p100 white business-info-bg" style="padding: 100px 0;height: 340px;">
 		<div class="w-1000 row text-center business-info-box">
 			<div class="business-info-title">二维码让业务信息流动更快</div>
@@ -1040,6 +1043,8 @@ var CLI_DOMAIN='cli.im',
 </div>
 <script>
     $(function(){
+	$(".support-wrapper-v3").remove();
+
         $('.cli_foot .qq_show').hover(function(e) {
             $('ul.qq_list').toggle();
             e.stopPropagation();
