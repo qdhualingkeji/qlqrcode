@@ -110,7 +110,7 @@ var CLI_DOMAIN='cli.im',
 <div class="cli_head scene_mobile">
 	<div class="cli_head_inner cli_head_container">
 		<a href="qlqrcode.htm">
-			<img src="qlqrcode_files/images/cli_logo.png" style="width:300px;height:54px; margin-top:5px;"/>
+			<img src="qlqrcode_files/images/cli_logo.png" style="width:260px;height:60px; margin-top:5px;"/>
 		</a>
 		<div class="logpart pull-right">
 			<div id="myqr_out" style="display: none">
@@ -786,7 +786,7 @@ var CLI_DOMAIN='cli.im',
 	<div class="w-p100 white" style="padding: 72px 0px;">
 		<div class="w-1000 row p-b-md text-center contact-wrapper logo-demo-v3">
 			<h2 class="scene-title" style="font-size: 24px;margin-bottom: 44px;font-weight: bold;">他们都在使用麒麟二维码</h2>
-			<img src="qlqrcode_files/static/images/goods/company_goods@2x_e0473ab.png" width="1000" height="300" alt="" />
+			<img src="qlqrcode_files/static/images/goods/company_goods@2x_e0473ab.png" width="1000" height="200" alt="" />
 		</div>
 	</div>
 	<div class="w-p100 p-y-lg light footer-to-price">

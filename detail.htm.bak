@@ -121,7 +121,30 @@ $(function(){
 			waibHtml+="</span>";
 		waibHtml+="</p>";
 		waibHtml+="<p>";
-			waibHtml+="<span id=\"scene3\"></span>";
+		
+			waibHtml+="<span id=\"scene3\">";
+			waibHtml+="<div style=\"width: 100%; height: 400px;background-color: #fff;padding-top: 10px;margin: 0 auto 24px;\">";
+			waibHtml+="<div class=\"left-img-box\" style=\"width: 190px;height: 390px;border: 1px solid #ddd;position: relative;margin-left: 80px;float: left;background-size: 100%;background-repeat:repeat-y;background-image:url(//blogcdnimg.clewm.net/2019/07/middle2@2x.png);border-radius: 24px;overflow: hidden;z-index: 0;\">";
+			waibHtml+="<div class=\"imgTopBox\" style=\"position: absolute;z-index: 1;background: #999999;\">";
+			waibHtml+="<img src=\"//blogcdnimg.clewm.net/2019/07/top_white2@2x.png\" alt=\"\" style=\"width: 190px; height: auto; cursor: pointer;\" data-lity=\"\" data-lity-target=\"//blogcdnimg.clewm.net/2019/07/top_white2@2x.png\">";
+			waibHtml+="</div>";
+			waibHtml+="<div class=\"imgbottomBox\" style=\"position: absolute;bottom: 0px;z-index: -1;\">";
+			waibHtml+="<img src=\"//blogcdnimg.clewm.net/2019/07/bottom2@2x.png\" alt=\"\" style=\"width: 190px; height: auto; cursor: pointer;\" data-lity=\"\" data-lity-target=\"//blogcdnimg.clewm.net/2019/07/bottom2@2x.png\">";
+			waibHtml+="</div>";
+			waibHtml+="<div class=\"imgContentPreview\" style=\"width: 180px;height: 374px;border-radius:21px;position: absolute;top: 11px;left: 4px;background: #999999;\">";
+			waibHtml+="<div style=\"height: 354px;overflow-y: scroll;padding-top: 38px;overflow-x: hidden;\">";
+			waibHtml+="<img style=\"width: 174px;margin-left: 3px;height: auto; cursor: pointer;\" alt=\"场景图片\" src=\"https://blogcdnimg.clewm.net/2019/06/红酒案例图片.jpg\" data-lity=\"\" data-lity-target=\"https://blogcdnimg.clewm.net/2019/06/红酒案例图片.jpg\">";
+			waibHtml+="</div>";
+			waibHtml+="</div>";
+			waibHtml+="</div>";
+			waibHtml+="<div class=\"right-box\" style=\"width: 200px;height: 200px;float: left;margin-left: 150px;margin-top: 90px;background-image: url(http://blogcdnimg.clewm.net/2019/06/four_border.png);background-repeat:no-repeat;background-size: 234px 214px;background-position: -16px -8px;\">";
+			waibHtml+="<img src=\"https://blogcdnimg.clewm.net/2019/06/红酒案例图片.png\" style=\"width: 160px; height: auto; float: left; margin-left: 21px; margin-top: 21px; cursor: pointer;\" data-lity=\"\" data-lity-target=\"https://blogcdnimg.clewm.net/2019/06/红酒案例图片.png\">";
+			waibHtml+="</div>";
+			waibHtml+="<div style=\"float:left;margin-left: 181px;margin-top: 8px;font-weight: bold;color: rgba(0,0,0,.87);\">扫码体验完整案例效果</div>";
+			waibHtml+="</div>";
+			waibHtml+="</span>";
+
+
 		waibHtml+="</p>";
 		waibHtml+="<p></p>";
 		waibHtml+="</p>";
@@ -419,7 +442,7 @@ $(function(){
 		var tpl = scrollTpl('qlqrcode_files/images/2019/06/WechatIMG2.jpeg', 'qlqrcode_files/images/2019/06/宜家家居产品画册.png');
 		$('#scene5').append(tpl);
 		
-		ctiuHtml+="<li class=\"create-tpl-item Margin16\" go-preview=\"\" is_preview=\"0\" scene_id=\"1380\" code-click-data=\"61\" data-id=\"3192\" data-type=\"1\" data-long=\"qlqrcode_files/images/rsrc/scene/13ff7f8255b29033a296198cb065d1031562318953.png\">";
+		ctiuHtml+="<li class=\"create-tpl-item Margin16\" go-preview=\"\" is_preview=\"0\" scene_id=\"1380\" code-click-data=\"61\" data-id=\"3192\" data-type=\"1\" data-long=\"qlqrcode_files/images/rsrc/scene/c69e92aad2d2a0d541ff9e36c6bcbfaf1547088833.png\">";
 			ctiuHtml+="<h4 class=\"item-name\">";
 				ctiuHtml+="多媒体资料";
 				ctiuHtml+="<i class=\"fa fa-angle-right\"></i>";

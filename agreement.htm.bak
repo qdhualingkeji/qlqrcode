@@ -149,42 +149,42 @@ body.custom-background { background-color: #ffffff; }
   }
 </style>
 <div class="cli_head scene_mobile">
-<div class="cli_head_inner cli_head_container">
-	<!--
-	<a href="//cli.im" class="logo pull-left"></a>
-	-->
-	<a href="qlqrcode.htm">
-		<img src="qlqrcode_files/images/cli_logo.png" style="width:300px;height:54px; margin-top:5px;"/>
-	</a>
-	<div class="logpart pull-right">
-		<div id="myqr_out" style="display: none">
-			<div class="cli-normal-main pointer">
-				<img src="" class="account_icon fl" />
-				<em class="user_account" style="position: relative;top: 1px;font-style: normal;float: left;margin-left: 6px;"></em>
-				<em class="cli_head_arrow"><i class="cli_head_arrow_up"></i></em>
-				<div class="header-capacity" id="header-capacity"></div>
+	<div class="cli_head_inner cli_head_container">
+		<!--
+		<a href="//cli.im" class="logo pull-left"></a>
+		-->
+		<a href="qlqrcode.htm">
+			<img src="qlqrcode_files/images/cli_logo.png" style="width:300px;height:54px; margin-top:5px;"/>
+		</a>
+		<div class="logpart pull-right">
+			<div id="myqr_out" style="display: none">
+				<div class="cli-normal-main pointer">
+					<img src="" class="account_icon fl" />
+					<em class="user_account" style="position: relative;top: 1px;font-style: normal;float: left;margin-left: 6px;"></em>
+					<em class="cli_head_arrow"><i class="cli_head_arrow_up"></i></em>
+					<div class="header-capacity" id="header-capacity"></div>
+				</div>
+				<a target="_blank" href="javascript:;" class="activeUpdate none" data-toggle="tooltip" data-placement="bottom" title="请升级你的账号">升级</a>
+				<script>__createA();</script>
 			</div>
-			<a target="_blank" href="javascript:;" class="activeUpdate none" data-toggle="tooltip" data-placement="bottom" title="请升级你的账号">升级</a>
-			<script>__createA();</script>
+			<div id="login_join"  aaa="0" style="">
+				<a href="//user.cli.im/login" class="first" data="join" data-type="login">登录 / 注册</a>
+				<script>__createA();</script>
+			</div>
 		</div>
-		<div id="login_join"  aaa="0" style="">
-			<a href="//user.cli.im/login" class="first" data="join" data-type="login">登录 / 注册</a>
-			<script>__createA();</script>
-		</div>
+		<div class="nav-divider pull-right"></div>
+		<ul class="menu pull-right">
+			<li class="top-menu-item">
+				<a href="qlqrcode.htm" class="menu-hd" id="top-nav-products" onclick="StatisticsData(120, 21)">产品介绍</a>
+			</li>
+			<li class="top-menu-item top-menu-solution" has-dropdown="true" >
+				<a href="solutionCommodity.htm" class="menu-hd" id="top-nav-solution" onclick="StatisticsData(120, 22)">应用案例</a>
+			</li>
+			<li>
+				<a href="price.htm" class="menu-hd" id="top-nav-price" target="_blank" onclick="StatisticsData(120, 122)">价格</a>
+			</li>
+		</ul>
 	</div>
-	<div class="nav-divider pull-right"></div>
-	<ul class="menu pull-right">
-		<li class="top-menu-item">
-			<a href="qlqrcode.htm" class="menu-hd" id="top-nav-products" onclick="StatisticsData(120, 21)">产品介绍</a>
-		</li>
-		<li class="top-menu-item top-menu-solution" has-dropdown="true" >
-			<a href="solutionCommodity.htm" class="menu-hd" id="top-nav-solution" onclick="StatisticsData(120, 22)">应用案例</a>
-		</li>
-		<li>
-			<a href="price.htm" class="menu-hd" id="top-nav-price" target="_blank" onclick="StatisticsData(120, 122)">价格</a>
-		</li>
-	</ul>
-</div>
 </div>
 <div class="clearfix"></div>
 <input type="hidden" id="STATICURL" value="//static.clewm.net/cli"><script>

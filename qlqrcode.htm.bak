@@ -223,7 +223,7 @@
 <a class="logo pull-left"></a>
 -->
 <a href="qlqrcode.htm">
-	<img src="qlqrcode_files/images/cli_logo.png" style="width:300px;height:54px; margin-top:5px;"/>
+	<img src="qlqrcode_files/images/cli_logo.png" style="width:260px;height:60px; margin-top:5px;"/>
 </a>
 <div class="logpart pull-right">
 <div id="myqr_out" style="display: none">
@@ -313,7 +313,7 @@
 </li>
 -->
 </ul>
-<div style="margin-left:1180px;margin-top:-38px; position:absolute;">全国服务热线：0532-55588351&nbsp;&nbsp;&nbsp;15712773653</div>
+<div style="margin-left:1080px;margin-top:-38px; position:absolute;">全国服务热线：0532-55588351&nbsp;&nbsp;&nbsp;15712773653</div>
 </div>
 </div>
 <div class="clearfix"></div><input type="hidden" id="STATICURL" value="//static.clewm.net/cli"><script>
