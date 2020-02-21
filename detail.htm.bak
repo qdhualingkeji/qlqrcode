@@ -133,12 +133,12 @@ $(function(){
 			waibHtml+="</div>";
 			waibHtml+="<div class=\"imgContentPreview\" style=\"width: 180px;height: 374px;border-radius:21px;position: absolute;top: 11px;left: 4px;background: #999999;\">";
 			waibHtml+="<div style=\"height: 354px;overflow-y: scroll;padding-top: 38px;overflow-x: hidden;\">";
-			waibHtml+="<img style=\"width: 174px;margin-left: 3px;height: auto; cursor: pointer;\" alt=\"场景图片\" src=\"https://blogcdnimg.clewm.net/2019/06/红酒案例图片.jpg\" data-lity=\"\" data-lity-target=\"https://blogcdnimg.clewm.net/2019/06/红酒案例图片.jpg\">";
+			waibHtml+="<img style=\"width: 174px;margin-left: 3px;height: auto; cursor: pointer;\" alt=\"场景图片\" src=\"tyalHtml/2019/06/红酒案例图片.jpg\" data-lity=\"\" data-lity-target=\"tyalHtml/2019/06/红酒案例图片.jpg\">";
 			waibHtml+="</div>";
 			waibHtml+="</div>";
 			waibHtml+="</div>";
 			waibHtml+="<div class=\"right-box\" style=\"width: 200px;height: 200px;float: left;margin-left: 150px;margin-top: 90px;background-image: url(http://blogcdnimg.clewm.net/2019/06/four_border.png);background-repeat:no-repeat;background-size: 234px 214px;background-position: -16px -8px;\">";
-			waibHtml+="<img src=\"https://blogcdnimg.clewm.net/2019/06/红酒案例图片.png\" style=\"width: 160px; height: auto; float: left; margin-left: 21px; margin-top: 21px; cursor: pointer;\" data-lity=\"\" data-lity-target=\"https://blogcdnimg.clewm.net/2019/06/红酒案例图片.png\">";
+			waibHtml+="<img src=\"tyalHtml/2019/06/红酒案例图片.png\" style=\"width: 160px; height: auto; float: left; margin-left: 21px; margin-top: 21px; cursor: pointer;\" data-lity=\"\" data-lity-target=\"tyalHtml/2019/06/红酒案例图片.png\">";
 			waibHtml+="</div>";
 			waibHtml+="<div style=\"float:left;margin-left: 181px;margin-top: 8px;font-weight: bold;color: rgba(0,0,0,.87);\">扫码体验完整案例效果</div>";
 			waibHtml+="</div>";
@@ -896,7 +896,7 @@ $(function(){
 -->
 <div class="cli_head scene_mobile">
 	<div class="cli_head_inner cli_head_container">
-		<img src="qlqrcode_files/images/cli_logo.png" style="width:300px;height:54px; margin-top:5px;"/>
+		<img src="qlqrcode_files/images/cli_logo.png" style="width:260px;height:60px;"/>
 		<div class="logpart pull-right">
 			<div id="myqr_out" style="display: none">
 				<div class="cli-normal-main pointer">
