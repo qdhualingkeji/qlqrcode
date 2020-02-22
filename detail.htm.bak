@@ -132,7 +132,7 @@ $(function(){
 			waibHtml+="<img src=\"//blogcdnimg.clewm.net/2019/07/bottom2@2x.png\" alt=\"\" style=\"width: 190px; height: auto; cursor: pointer;\" data-lity=\"\" data-lity-target=\"//blogcdnimg.clewm.net/2019/07/bottom2@2x.png\">";
 			waibHtml+="</div>";
 			waibHtml+="<div class=\"imgContentPreview\" style=\"width: 180px;height: 374px;border-radius:21px;position: absolute;top: 11px;left: 4px;background: #999999;\">";
-			waibHtml+="<div style=\"height: 354px;overflow-y: scroll;padding-top: 38px;overflow-x: hidden;\">";
+			waibHtml+="<div style=\"height: 354px;overflow-y: scroll;overflow-x: hidden;\">";
 			waibHtml+="<img style=\"width: 174px;margin-left: 3px;height: auto; cursor: pointer;\" alt=\"³¡¾°Í¼Æ¬\" src=\"tyalHtml/2019/06/ºì¾Æ°¸ÀýÍ¼Æ¬.jpg\" data-lity=\"\" data-lity-target=\"tyalHtml/2019/06/ºì¾Æ°¸ÀýÍ¼Æ¬.jpg\">";
 			waibHtml+="</div>";
 			waibHtml+="</div>";
