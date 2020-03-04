@@ -70,56 +70,59 @@ table {
  </head>
  <body>
  <div class="main_div">
-		<div class="productName_div">
-			江小白
-		</div>
-		<div class="image1_div" id="image1_div">
-			<img class="image1_1_img" alt="" src="images/spzs/22ad5cebe49933335608eeb6356e6ab9.png">
-		</div>
-		<div class="memo1_div">
-			江小白SE表达瓶系列
-		</div>
-		<div class="spxq_div">
-			<table class="spxq_tab" id="spxq_tab">
-				<tbody>
-					<tr height="60">
-						<td class="head_td" colspan="2">商品详情</td>
-					</tr>
-					<tr height="50">
-						<td class="name_td">
-							原料
-						</td>
-						<td class="value_td">
-							
-						</td>
-					</tr>
-					<tr height="50">
-						<td class="name_td">
-							酒精含量
-						</td>
-						<td class="value_td">
-							
-						</td>
-					</tr>
-					<tr height="50">
-						<td class="name_td">
-							净含量
-						</td>
-						<td class="value_td">
-							
-						</td>
-					</tr>
-					<tr height="50">
-						<td class="name_td">
-							储存方法
-						</td>
-						<td class="value_td">
-							
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+	<div style="text-align:center;">
+		<a href="http://qlcode.qdhualing.com" style="text-decoration:none;">麒麟二维码</a>
+	</div>
+	<div class="productName_div">
+		江小白
+	</div>
+	<div class="image1_div" id="image1_div">
+		<img class="image1_1_img" alt="" src="images/spzs/22ad5cebe49933335608eeb6356e6ab9.png">
+	</div>
+	<div class="memo1_div">
+		江小白SE表达瓶系列
+	</div>
+	<div class="spxq_div">
+		<table class="spxq_tab" id="spxq_tab">
+			<tbody>
+				<tr height="60">
+					<td class="head_td" colspan="2">商品详情</td>
+				</tr>
+				<tr height="50">
+					<td class="name_td">
+						原料
+					</td>
+					<td class="value_td">
+						
+					</td>
+				</tr>
+				<tr height="50">
+					<td class="name_td">
+						酒精含量
+					</td>
+					<td class="value_td">
+						
+					</td>
+				</tr>
+				<tr height="50">
+					<td class="name_td">
+						净含量
+					</td>
+					<td class="value_td">
+						
+					</td>
+				</tr>
+				<tr height="50">
+					<td class="name_td">
+						储存方法
+					</td>
+					<td class="value_td">
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 		<div class="memo2_div">
 			江小白的主力单品。采用小瓶加语录的至简设计，以语录和表达功能实现与消费者的互动。具有清爽的香味与柔和的口感，是时尚感与利口化的标志性融合。
 【口感品鉴】
@@ -133,6 +136,7 @@ table {
 		</div>
 		<div class="memo3_div">
 		</div>
+		<div style="text-align:center;">aaa</div>
   </div>
  </body>
 </html>
