@@ -355,6 +355,7 @@ $(function(){
 		waibHtml+="<p></p>";
 		waibHtml+="<p></p>";
 		waibHtml+="<p style=\"white-space: normal;\"></p>";
+		/*
 		waibHtml+="<p>";
 			waibHtml+="<span id=\"scene5\">";
 				waibHtml+="<div style=\"width: 100%; height: 400px;background-color: #fff;padding-top: 10px;margin: 0 auto 24px;\">";
@@ -378,6 +379,7 @@ $(function(){
 				waibHtml+="</div>";
 			waibHtml+="</span>";
 		waibHtml+="</p>";
+		*/
 		waibHtml+="<p></p>";
 		waibHtml+="<p></p>";
 		waibHtml+="<p style=\"white-space: normal;\"></p>";
