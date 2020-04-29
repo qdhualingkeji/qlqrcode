@@ -61,7 +61,7 @@
 		<div style="width: 1px;height: 246px;top: 72px;left: 320px;background-color: rgba(120,130,140,.13);position: absolute;"></div>
 		<div style="width:220px;height:280px;margin-top:-280px;margin-left:365px;border: 1px solid rgba(120,130,140,0.25);padding: 16px 0 24px;box-sizing: border-box;border-radius: 4px;background: #fff;">
 			<h2 style="color: #4caf50;font-size:20px;height:30px;line-height:30px;">Î¢ÐÅÕËºÅµÇÂ¼</h2>
-			<img style="width:170px;height:170px;" src="http://www.bainuojiaoche.com:8080/GoodsPublic/resource/images/qrcode.png"/>
+			<img style="width:170px;height:170px;" src="http://www.qrcodesy.com:8080/GoodsPublic/resource/images/qrcode.png"/>
 			<p style="color: #666;font-size: 14px;margin-top: 10px;">Î¢ÐÅÉ¨Âë¿ìËÙ×¢²áµÇÂ¼</p>
 		</div>
 		<div style="width:100%;height:50px;line-height:50px;color: #9b9b9b;text-align:center;background-color:#fff;bottom: 0;position: absolute;">
@@ -114,7 +114,7 @@
 
   function goRegist(){
 	var price=$("#price_hid").val();
-	location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/regist?action=buy&price="+price;
+	location.href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/regist?action=buy&price="+price;
   }
 
   function checkInputData(){
@@ -129,7 +129,7 @@
 	  var userName=$("#userName").val();
 	  var password=MD5($("#password").val()).toUpperCase();
 	  $.ajax({
-		 url:"http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/loginQL",
+		 url:"http://www.qrcodesy.com:8080/GoodsPublic/merchant/loginQL",
 		 dataType:'jsonp',
 		 data:"userName="+userName+"&password="+password,
 		 processData: false, 
@@ -141,7 +141,7 @@
 		   //console.log(json);
 		   if(json.status==0){
 			  var price=$("#price_hid").val();
-			  location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/saveQLUser?price="+price+"&userName="+userName+"&password="+password;
+			  location.href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/saveQLUser?price="+price+"&userName="+userName+"&password="+password;
 		   }
 		   else{
 			  alert(json.msg);
@@ -205,7 +205,7 @@
 				<script>__createA();</script>
 			</div>
 			<div id="login_join"  aaa="0" style="">
-				<a class="first" data="join" data-type="login" onClick="location.href='http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/login';">µÇÂ¼ / ×¢²á</a>
+				<a class="first" data="join" data-type="login" onClick="location.href='http://www.qrcodesy.com:8080/GoodsPublic/merchant/login';">µÇÂ¼ / ×¢²á</a>
 				<script>__createA();</script>
 			</div>
 		</div>
@@ -253,7 +253,7 @@
 
   function goFeeBuy(price){
 	  $.ajax({
-	     url:"http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/checkIfLogin",
+	     url:"http://www.qrcodesy.com:8080/GoodsPublic/merchant/checkIfLogin",
 		 dataType:'jsonp',
 		 processData: false, 
 		 jsonp:'callback',
@@ -263,10 +263,10 @@
 		   var json=JSON.parse(data);
 		   console.log(json);
 		   if(json.status==0){
-			  location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goFeeBuy?price="+price;
+			  location.href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/main/goFeeBuy?price="+price;
 		   }
 		   else{
-			  //location.href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/regist?price="+price;
+			  //location.href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/regist?price="+price;
 			  $("#login_bg_div").css("display","block");
 			  $("#login_bg_div #price_hid").val(price);
 		   }
@@ -343,7 +343,7 @@
 					  </div>
 					  <div class="text-center">
 	      				  <!--
-					     <a href="http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/main/goFeeBuy?price=150" buy-version target="_blank" onclick="StatisticsData(17,102)" class="btn btn-outline b-orange text-orange btn-fw btn-buy">Á¢¼´¹ºÂò</a>
+					     <a href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/main/goFeeBuy?price=150" buy-version target="_blank" onclick="StatisticsData(17,102)" class="btn btn-outline b-orange text-orange btn-fw btn-buy">Á¢¼´¹ºÂò</a>
 						 -->
 						 <a buy-version target="_blank" onclick="goFeeBuy(150);" class="btn btn-outline b-orange text-orange btn-fw btn-buy">Á¢¼´¹ºÂò</a>
 					  </div>
