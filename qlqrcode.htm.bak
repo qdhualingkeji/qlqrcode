@@ -245,7 +245,7 @@
 <a href="https://console.cli.im/center" class="newfirst mycode" data="manage" data-type="manage" onClick="StatisticsData(120,1)">我的二维码</a>
 </div>
 <div id="login_join" aaa="0" style="">
-<a class="first" data="join" data-type="login" onClick="location.href='http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/login';">登录 / 注册</a>
+<a class="first" data="join" data-type="login" onClick="location.href='http://www.qrcodesy.com:8080/GoodsPublic/merchant/login';">登录 / 注册</a>
 <script>__createA();</script>
 <!--
 <a href="https://console.cli.im/center" class="newfirst mycode" data="manage" data-type="manage" onClick="StatisticsData(120,1)">我的二维码</a>
@@ -345,7 +345,7 @@
 		<h1 class="header-content">在线定制生成二维码</h1>
 		<h5 class="header-inner text-darkgrey">无需技术开发，快速实现二维码的自助生成和商用管理</h5>
 	</div>
-	<div style=" width:306px; height:266px;float:right;margin-top:-283.6px;margin-right: 451.5px;background-position: 100% 50%;background-position-x: 100%;background-position-y: 50%;cursor:pointer;" onClick="location.href='http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/login';">
+	<div style=" width:306px; height:266px;float:right;margin-top:-283.6px;margin-right: 451.5px;background-position: 100% 50%;background-position-x: 100%;background-position-y: 50%;cursor:pointer;" onClick="location.href='http://www.qrcodesy.com:8080/GoodsPublic/merchant/login';">
 	</div>
 </section>
 <section class="white features">
@@ -431,7 +431,7 @@
 			<span class="liucheng-number">4</span>
 			扫码查看、编辑或记录
 		</div>
-		<a class="btn btn-lg green btn-products" id="free-use" onClick="location.href='http://www.bainuojiaoche.com:8080/GoodsPublic/merchant/login';">免费试用</a>
+		<a class="btn btn-lg green btn-products" id="free-use" onClick="location.href='http://www.qrcodesy.com:8080/GoodsPublic/merchant/login';">免费试用</a>
 	</div>
 </section>
 <!--
